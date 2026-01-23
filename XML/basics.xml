@@ -1,0 +1,52 @@
+<!-- Basic XML Syntax and Structrue -->
+
+<!-- XML Declaration -->
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Basic Element -->
+<name>Christopher Quinto</name>
+
+<!-- 
+  Elements can contain other elements.
+  Every XML document must have exactly one root element.
+  In this case, the root element is <person></person>
+-->
+<person>
+  <name>Christopher</name>
+  <age>21</age>
+</person>
+
+<!--
+  Attributes: are extra information inside the opening tag.
+  They describe metadata not core data
+-->
+<book id="123" language="en">
+  <title>Clean code</title>
+</book>
+
+<!-- Bad use of attributes: -->
+<person name="Christopher" age="21" />
+
+<!-- Self closing tags: If an element has no content (Empty) -->
+<line-break />
+
+<!-- Equivalent to -->
+<line-break> </line-break>
+
+<!-- Special characters and spacing -->
+<message>5 &lt; 10</message> <!--5 < 10-->
+<message>5 &gt; 10</message> <!--5 > 10-->
+<message>5 &amp; 10</message> <!--& < 10-->
+<message>5 &quot; 10</message> <!--5 " 10-->
+
+<!--
+  You can style XML using normal CSS.
+  For example there is an element <note></note>
+  You can style it like this:
+
+  note {
+    color: blue;
+  }
+-->
+
+

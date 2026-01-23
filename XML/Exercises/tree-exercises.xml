@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Given the tree structure, convert it into xml -->
+
+<!-- Exercise 1 -->
+<person>
+  <name>Christopher Quinto</name>
+  <age>13</age>
+</person>
+
+<!-- Exercise 2 -->
+
+<Book>
+  <Title>Book Title</Title>
+  <Author>
+    <FirstName>First Name</FirstName>
+    <LastName>Last Name</LastName>
+  </Author>
+  <Year>2026</Year>
+</Book>
+
+<!-- Exercise 3 -->
+<Library>
+  <Book>
+    <Title>Book 1</Title>
+    <ISBN>1</ISBN>
+  </Book>
+  <Book>
+    <Title>Book 2</Title>
+    <ISBN>2</ISBN>
+  </Book>
+</Library>
+
+<!--Exercise 4 -->
+
+<Company>
+  <Department>
+    <Name>Department 1</Name>
+    <Employee>
+      <Name>Employee 1</Name>
+      <Role>Role 1</Role>
+    </Employee>
+  </Department>
+  <Department>
+    <Name>Department 2</Name>
+    <Employee>
+      <Name>Employee 2</Name>
+      <Role>Role 2</Role>
+    </Employee>
+  </Department>
+</Company>
+
+<!-- Exercise 5 -->
+
+<Users>
+  <User id="1">
+    <Name>Name 1</Name>
+    <Email>Email 1</Email>
+  </User>
+  <User id="2">
+    <Name>Name 2</Name>
+    <Email>Email 2</Email>
+  </User>
+</Users>
+
+<!-- Exercise 6 -->
+<Form>
+  <Title>Title</Title>
+  <Description>Description</Description>
+  <SubmittedAt />
+</Form>
+
+<!--Exercise 7 -->
+
+<Config>
+  <!-- Database -->
+  <Database>
+    <Host>Host</Host>
+    <Port>Port</Port>
+    <Credentials>
+      <Username>Username</Username>
+      <Password>Password</Password>
+    </Credentials>
+  </Database>
+
+  <!-- Logging -->
+  <Logging>
+    <Level>Level</Level>
+    <File>File</File>
+  </Logging>
+</Config>
+
+
+
+
+
+
+
+
+
+
+
+
