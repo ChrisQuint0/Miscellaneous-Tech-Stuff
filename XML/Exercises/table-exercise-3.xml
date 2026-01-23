@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Company>
+  <Department name="Sales">
+    <!-- North Team -->
+    <Team name="North Team">
+      <!-- Employee 1 -->
+      <Employee id="401">
+        <EmployeeName>Alice Smith</EmployeeName>
+        <Role>Manager</Role>
+        <Email>alice@company.com</Email>
+      </Employee>
+
+      <!-- Employee 2 -->
+      <Employee id="402">
+        <EmployeeName>Bob Jones</EmployeeName>
+        <Role>Associate</Role>
+        <Email>bob@company.com</Email>
+      </Employee>
+    </Team>
+
+    <!-- South Team  -->
+    <Team name="South Team">
+      <Employee id="403">
+        <EmployeeName>Carol White</EmployeeName>
+        <Role>Associate</Role>
+        <Email />
+      </Employee>
+    </Team>
+  </Department>
+
+  <Department name="IT">
+    <Team name="Dev Team">
+      <!-- Employee 1 -->
+      <Employee id="501">
+        <EmployeeName>Charlie Lee</EmployeeName>
+        <Role>Admin</Role>
+        <Email>charlie@company.com</Email>
+      </Employee>
+
+      <!-- Employee 2 -->
+      <Employee id="502">
+        <EmployeeName>Dana Kim</EmployeeName>
+        <Role>Developer</Role>
+        <Email>dana@company.com</Email>
+      </Employee>
+    </Team>
+  </Department>
+</Company>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Company>
+  <!-- Employee 1 -->
+  <Employee>
+    <Department>Sales</Department>
+    <EmployeeID>201</EmployeeID>
+    <EmployeeName>Alice Smith</EmployeeName>
+    <Role>Manager</Role>
+  </Employee>
+
+  <!-- Employee 2 -->
+  <Employee>
+    <Department>Sales</Department>
+    <EmployeeID>202</EmployeeID>
+    <EmployeeName>Bob Jones</EmployeeName>
+    <Role>Associate</Role>
+  </Employee>
+
+  <!-- Employee 3 -->
+  <Employee>
+    <Department>IT</Department>
+    <EmployeeID>301</EmployeeID>
+    <EmployeeName>Charlie Lee</EmployeeName>
+    <Role>Admin</Role>
+  </Employee>
+
+  <!-- Employee 4 -->
+   <Employee>
+    <Department>IT</Department>
+    <EmployeeID>302</EmployeeID>
+    <EmployeeName>Dana Kim</EmployeeName>
+    <Role>Developer</Role>
+  </Employee>
+</Company>

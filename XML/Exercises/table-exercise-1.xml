@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Students>
+  <!-- Student 1 -->
+  <Student>
+    <ID>101</ID>
+    <Name>Alice Johnson</Name>
+    <Grade>90</Grade>
+  </Student>
+  
+  <!-- Student 2 -->
+  <Student>
+    <ID>102</ID>
+    <Name>Bob Smith</Name>
+    <Grade>85</Grade>
+  </Student>
+
+  <!-- Student 3 -->
+  <Student>
+    <ID>103</ID>
+    <Name>Charlie Davis</Name>
+    <Grade>92</Grade>
+  </Student>
+</Students>
