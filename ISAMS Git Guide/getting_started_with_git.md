@@ -20,37 +20,6 @@ git --version
 
 ---
 
-### macOS
-
-```bash
-brew install git
-```
-
-Or install from git-scm.com.
-
-Verify:
-
-```bash
-git --version
-```
-
----
-
-### Linux (Ubuntu/Debian)
-
-```bash
-sudo apt update
-sudo apt install git
-```
-
-Verify:
-
-```bash
-git --version
-```
-
----
-
 ## 2. Initialize commit editor (VS Code)
 
 This tells Git to open **VS Code** whenever it needs a commit message.
