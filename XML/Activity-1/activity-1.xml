@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="activity_1.xsl"?>
+
+<menu>
+  <!-- Food Item 1 -->
+  <food-item>
+    <heading>
+       <name>Belgian Waffles</name>
+       <price>- $5.95</price>
+    </heading>
+    <subheading>
+      <description>Two of famous Belgian Waffles with plenty of real maple syrup</description>
+      <calories>(650 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 2 -->
+  <food-item>
+    <heading>
+       <name>Strawberry Belgian Waffles</name>
+       <price>- $7.95</price>
+    </heading>
+    <subheading>
+      <description>Light Belgian waffles covered with strawberries and whipped cream</description>
+      <calories>(900 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 3 -->
+  <food-item>
+    <heading>
+       <name>Berry-Berry Belgian Waffles</name>
+       <price>- $8.95</price>
+    </heading>
+    <subheading>
+      <description>Light Belgian waffles covered with an assortment of fresh berries and whipped cream</description>
+      <calories>(900 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 4 -->
+  <food-item>
+    <heading>
+       <name>French Toast</name>
+       <price>- $4.50</price>
+    </heading>
+    <subheading>
+      <description>Thick slices made from our homemade sourdough bread</description>
+      <calories>(600 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 5 -->
+  <food-item>
+    <heading>
+       <name>Hometyle Breakfast</name>
+       <price>- $6.95</price>
+    </heading>
+    <subheading>
+      <description>Two eggs, bacon or sausage, toast, and our ever-popular hash browns</description>
+      <calories>(950 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 6 -->
+  <food-item>
+    <heading>
+       <name>Pancakes</name>
+       <price>- $5.50</price>
+    </heading>
+    <subheading>
+      <description>Fluffy buttermilk pancakes served with butter and maple syrup</description>
+      <calories>(700 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 7 -->
+  <food-item>
+    <heading>
+       <name>Three-Egg Omelette</name>
+       <price>- $7.25</price>
+    </heading>
+    <subheading>
+      <description>Three-egg omelette with cheese and your choice of fillings</description>
+      <calories>(650 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 8 -->
+  <food-item>
+    <heading>
+       <name>Breakfast Burrito</name>
+       <price>- $6.75</price>
+    </heading>
+    <subheading>
+      <description>Flour tortilla stuffed with scrambled eggs, potatoes, cheese and salsa</description>
+      <calories>(800 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 9 -->
+  <food-item>
+    <heading>
+       <name>Avocado Toast</name>
+       <price>- $6.00</price>
+    </heading>
+    <subheading>
+      <description>Toasted sourdough topped with smashed avocado and chili flakes</description>
+      <calories>(420 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 10 -->
+  <food-item>
+    <heading>
+       <name>Yogurt Parfait</name>
+       <price>- $4.95</price>
+    </heading>
+    <subheading>
+      <description>Layers of creamy yogurt, granola, and fresh seasonal fruit</description>
+      <calories>(350 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 11 -->
+  <food-item>
+    <heading>
+       <name>Chocolate Chip Pancakes</name>
+       <price>- $6.25</price>
+    </heading>
+    <subheading>
+      <description>Fluffy pancakes loaded with chocolate chips and served with syrup</description>
+      <calories>(750 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 12 -->
+  <food-item>
+    <heading>
+       <name>Banana Pancakes</name>
+       <price>- $6.00</price>
+    </heading>
+    <subheading>
+      <description>Pancakes with fresh banana slices and a drizzle of honey</description>
+      <calories>(700 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 13 -->
+  <food-item>
+    <heading>
+       <name>Spinach Omelette</name>
+       <price>- $7.50</price>
+    </heading>
+    <subheading>
+      <description>Three-egg omelette with fresh spinach, tomatoes, and feta cheese</description>
+      <calories>(620 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 14 -->
+  <food-item>
+    <heading>
+       <name>Smoked Salmon Bagel</name>
+       <price>- $8.50</price>
+    </heading>
+    <subheading>
+      <description>Bagel topped with cream cheese, smoked salmon, and capers</description>
+      <calories>(450 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 15 -->
+  <food-item>
+    <heading>
+       <name>Eggs Benedict</name>
+       <price>- $9.95</price>
+    </heading>
+    <subheading>
+      <description>Poached eggs on English muffins with hollandaise sauce and ham</description>
+      <calories>(850 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 16 -->
+  <food-item>
+    <heading>
+       <name>French Croissant</name>
+       <price>- $3.50</price>
+    </heading>
+    <subheading>
+      <description>Buttery, flaky croissant served fresh daily</description>
+      <calories>(250 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 17 -->
+  <food-item>
+    <heading>
+       <name>Breakfast Sandwich</name>
+       <price>- $5.75</price>
+    </heading>
+    <subheading>
+      <description>Egg, cheese, and choice of bacon or sausage on a toasted bun</description>
+      <calories>(600 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 18 -->
+  <food-item>
+    <heading>
+       <name>Apple Cinnamon Oatmeal</name>
+       <price>- $4.75</price>
+    </heading>
+    <subheading>
+      <description>Warm oatmeal with fresh apples, cinnamon, and a touch of brown sugar</description>
+      <calories>(350 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 19 -->
+  <food-item>
+    <heading>
+       <name>Granola Bowl</name>
+       <price>- $4.50</price>
+    </heading>
+    <subheading>
+      <description>Crunchy granola with fresh fruit and honey drizzle</description>
+      <calories>(300 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 20 -->
+  <food-item>
+    <heading>
+       <name>Blueberry Muffin</name>
+       <price>- $3.75</price>
+    </heading>
+    <subheading>
+      <description>Freshly baked muffin packed with juicy blueberries</description>
+      <calories>(320 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 21 -->
+  <food-item>
+    <heading>
+       <name>Avocado Egg Toast</name>
+       <price>- $6.50</price>
+    </heading>
+    <subheading>
+      <description>Toasted bread topped with smashed avocado and poached egg</description>
+      <calories>(480 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 22 -->
+  <food-item>
+    <heading>
+       <name>Huevos Rancheros</name>
+       <price>- $8.00</price>
+    </heading>
+    <subheading>
+      <description>Fried eggs on tortillas topped with salsa, beans, and cheese</description>
+      <calories>(780 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 23 -->
+  <food-item>
+    <heading>
+       <name>Breakfast Quesadilla</name>
+       <price>- $7.25</price>
+    </heading>
+    <subheading>
+      <description>Flour tortilla stuffed with eggs, cheese, and your choice of meat</description>
+      <calories>(700 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 24 -->
+  <food-item>
+    <heading>
+       <name>Breakfast Pizza</name>
+       <price>- $9.50</price>
+    </heading>
+    <subheading>
+      <description>Mini pizza with eggs, bacon, cheese, and vegetables</description>
+      <calories>(850 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 25 -->
+  <food-item>
+    <heading>
+       <name>Cinnamon Roll</name>
+       <price>- $4.25</price>
+    </heading>
+    <subheading>
+      <description>Warm cinnamon roll with sweet icing on top</description>
+      <calories>(400 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 26 -->
+  <food-item>
+    <heading>
+       <name>Bagel with Cream Cheese</name>
+       <price>- $3.50</price>
+    </heading>
+    <subheading>
+      <description>Freshly baked bagel served with creamy spread</description>
+      <calories>(320 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 27 -->
+  <food-item>
+    <heading>
+       <name>Veggie Omelette</name>
+       <price>- $7.00</price>
+    </heading>
+    <subheading>
+      <description>Three-egg omelette with bell peppers, onions, mushrooms, and cheese</description>
+      <calories>(600 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 28 -->
+  <food-item>
+    <heading>
+       <name>Chicken and Waffles</name>
+       <price>- $10.50</price>
+    </heading>
+    <subheading>
+      <description>Crispy fried chicken served with a Belgian waffle and syrup</description>
+      <calories>(950 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 29 -->
+  <food-item>
+    <heading>
+       <name>Breakfast Tacos</name>
+       <price>- $7.50</price>
+    </heading>
+    <subheading>
+      <description>Soft tortillas filled with scrambled eggs, cheese, and salsa</description>
+      <calories>(650 calories per serving)</calories>
+    </subheading>
+  </food-item>
+
+  <!-- Food Item 30 -->
+  <food-item>
+    <heading>
+       <name>Smoked Salmon Omelette</name>
+       <price>- $9.00</price>
+    </heading>
+    <subheading>
+      <description>Omelette filled with smoked salmon, cream cheese, and chives</description>
+      <calories>(700 calories per serving)</calories>
+    </subheading>
+  </food-item>
+</menu>
