@@ -1,0 +1,1378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manila Classifieds - Modern Marketplace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+      :root {
+        --primary: #6a4c93;
+        --primary-dark: #5a3d7f;
+        --secondary: #8b6bb8;
+        --accent: #9d7cb9;
+        --surface: #fafbfc;
+        --surface-2: #ffffff;
+        --text-primary: #1a1d23;
+        --text-secondary: #6b7280;
+        --text-muted: #9ca3af;
+        --border: #e5e7eb;
+        --success: #10b981;
+        --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+        --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        --radius-sm: 8px;
+        --radius-md: 12px;
+        --radius-lg: 16px;
+        --radius-xl: 24px;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family:
+          "Plus Jakarta Sans",
+          -apple-system,
+          BlinkMacSystemFont,
+          sans-serif;
+        background: linear-gradient(135deg, #fafbfc 0%, #f3f4f6 100%);
+        color: var(--text-primary);
+        line-height: 1.6;
+        overflow-x: hidden;
+      }
+
+      /* Header */
+      header {
+        background: var(--surface-2);
+        border-bottom: 1px solid var(--border);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        backdrop-filter: blur(10px);
+        background: rgba(255, 255, 255, 0.95);
+        box-shadow: var(--shadow-sm);
+        animation: slideDown 0.5s ease-out;
+      }
+
+      @keyframes slideDown {
+        from {
+          transform: translateY(-100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+      .header-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        text-decoration: none;
+        transition: transform 0.3s ease;
+      }
+
+      .logo:hover {
+        transform: translateY(-2px);
+      }
+
+      .logo-icon {
+        width: 40px;
+        height: 40px;
+        background: linear-gradient(
+          135deg,
+          var(--primary) 0%,
+          var(--accent) 100%
+        );
+        border-radius: var(--radius-md);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Fraunces", serif;
+        font-weight: 700;
+        color: white;
+        font-size: 20px;
+        box-shadow: var(--shadow-md);
+      }
+
+      .logo-text {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .logo-text-main {
+        font-family: "Fraunces", serif;
+        font-weight: 700;
+        font-size: 24px;
+        color: var(--text-primary);
+        line-height: 1;
+      }
+
+      .logo-text-sub {
+        font-size: 11px;
+        color: var(--text-secondary);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 600;
+      }
+
+      .header-search {
+        flex: 1;
+        max-width: 600px;
+        margin: 0 40px;
+        position: relative;
+      }
+
+      .search-input-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+      }
+
+      .search-icon {
+        position: absolute;
+        left: 16px;
+        color: var(--text-muted);
+        pointer-events: none;
+      }
+
+      .search-input {
+        width: 100%;
+        padding: 14px 20px 14px 48px;
+        border: 2px solid var(--border);
+        border-radius: var(--radius-xl);
+        font-size: 15px;
+        font-family: inherit;
+        transition: all 0.3s ease;
+        background: var(--surface);
+      }
+
+      .search-input:focus {
+        outline: none;
+        border-color: var(--primary);
+        box-shadow: 0 0 0 4px rgba(106, 76, 147, 0.1);
+        background: white;
+      }
+
+      .header-actions {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .location-btn {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 16px;
+        background: var(--surface);
+        border: 2px solid var(--border);
+        border-radius: var(--radius-md);
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--text-primary);
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .location-btn:hover {
+        border-color: var(--secondary);
+        background: white;
+      }
+
+      .btn-primary {
+        padding: 12px 24px;
+        background: linear-gradient(
+          135deg,
+          var(--primary) 0%,
+          var(--accent) 100%
+        );
+        color: white;
+        border: none;
+        border-radius: var(--radius-md);
+        font-family: inherit;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: var(--shadow-md);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-lg);
+      }
+
+      .btn-secondary {
+        padding: 10px 20px;
+        background: white;
+        color: var(--text-primary);
+        border: 2px solid var(--border);
+        border-radius: var(--radius-md);
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .btn-secondary:hover {
+        border-color: var(--text-primary);
+      }
+
+      /* Hero Section */
+      .hero {
+        max-width: 1400px;
+        margin: 60px auto 40px;
+        padding: 0 24px;
+        animation: fadeInUp 0.7s ease-out 0.2s both;
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .hero-content {
+        text-align: center;
+        margin-bottom: 48px;
+      }
+
+      .hero-title {
+        font-family: "Fraunces", serif;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.1;
+        margin-bottom: 16px;
+        background: linear-gradient(
+          135deg,
+          var(--text-primary) 0%,
+          var(--secondary) 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .hero-subtitle {
+        font-size: 20px;
+        color: var(--text-secondary);
+        font-weight: 400;
+      }
+
+      /* Quick Categories */
+      .quick-categories {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 16px;
+        margin-bottom: 60px;
+      }
+
+      .category-card {
+        background: var(--surface-2);
+        border: 2px solid var(--border);
+        border-radius: var(--radius-lg);
+        padding: 24px 16px;
+        text-align: center;
+        text-decoration: none;
+        color: var(--text-primary);
+        transition: all 0.3s ease;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .category-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(
+          90deg,
+          var(--primary) 0%,
+          var(--accent) 100%
+        );
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+      }
+
+      .category-card:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-lg);
+        border-color: var(--primary);
+      }
+
+      .category-card:hover::before {
+        transform: scaleX(1);
+      }
+
+      .category-icon {
+        width: 56px;
+        height: 56px;
+        margin: 0 auto 12px;
+        background: linear-gradient(
+          135deg,
+          rgba(106, 76, 147, 0.1) 0%,
+          rgba(157, 124, 185, 0.1) 100%
+        );
+        border-radius: var(--radius-md);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        color: var(--primary);
+      }
+
+      .category-icon svg {
+        width: 28px;
+        height: 28px;
+        stroke-width: 2;
+      }
+
+      .category-card:hover .category-icon {
+        background: linear-gradient(
+          135deg,
+          var(--primary) 0%,
+          var(--accent) 100%
+        );
+        transform: scale(1.1) rotate(5deg);
+        color: white;
+      }
+
+      .category-name {
+        font-weight: 700;
+        font-size: 15px;
+        margin-bottom: 4px;
+      }
+
+      .category-count {
+        font-size: 13px;
+        color: var(--text-secondary);
+      }
+
+      /* Main Content Grid */
+      .main-content {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 24px 60px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 32px;
+      }
+
+      /* Listings Section */
+      .listings-section {
+        animation: fadeInUp 0.7s ease-out 0.4s both;
+      }
+
+      .section-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 24px;
+      }
+
+      .section-title {
+        font-family: "Fraunces", serif;
+        font-size: 32px;
+        font-weight: 700;
+      }
+
+      .view-all-link {
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        transition: gap 0.3s ease;
+      }
+
+      .view-all-link:hover {
+        gap: 8px;
+      }
+
+      .categories-grid {
+        display: grid;
+        gap: 20px;
+      }
+
+      .category-section {
+        background: var(--surface-2);
+        border: 2px solid var(--border);
+        border-radius: var(--radius-lg);
+        padding: 24px;
+        transition: all 0.3s ease;
+      }
+
+      .category-section:hover {
+        box-shadow: var(--shadow-md);
+      }
+
+      .category-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 16px;
+        padding-bottom: 16px;
+        border-bottom: 2px solid var(--border);
+      }
+
+      .category-title-row {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .category-emoji {
+        width: 32px;
+        height: 32px;
+        color: var(--primary);
+      }
+
+      .category-emoji svg {
+        width: 100%;
+        height: 100%;
+      }
+
+      .category-title {
+        font-family: "Fraunces", serif;
+        font-size: 22px;
+        font-weight: 700;
+      }
+
+      .category-links {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 12px;
+      }
+
+      .category-link {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 16px;
+        background: var(--surface);
+        border-radius: var(--radius-sm);
+        text-decoration: none;
+        color: var(--text-primary);
+        font-size: 14px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+      }
+
+      .category-link:hover {
+        background: var(--primary);
+        color: white;
+        transform: translateX(4px);
+      }
+
+      .category-link-count {
+        color: var(--text-muted);
+        font-size: 12px;
+        transition: color 0.3s ease;
+      }
+
+      .category-link:hover .category-link-count {
+        color: rgba(255, 255, 255, 0.8);
+      }
+
+      /* Sidebar */
+      .sidebar {
+        animation: fadeInUp 0.7s ease-out 0.6s both;
+      }
+
+      .sidebar-card {
+        background: var(--surface-2);
+        border: 2px solid var(--border);
+        border-radius: var(--radius-lg);
+        padding: 24px;
+        margin-bottom: 24px;
+      }
+
+      .sidebar-title {
+        font-family: "Fraunces", serif;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .sidebar-title i {
+        width: 24px;
+        height: 24px;
+        color: var(--primary);
+      }
+
+      .sidebar-title svg {
+        width: 22px;
+        height: 22px;
+        color: var(--primary);
+      }
+
+      .calendar {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 8px;
+      }
+
+      .calendar-header {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--text-secondary);
+        padding: 8px 0;
+      }
+
+      .calendar-day {
+        aspect-ratio: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: var(--radius-sm);
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 2px solid transparent;
+      }
+
+      .calendar-day:hover {
+        background: var(--surface);
+        border-color: var(--primary);
+      }
+
+      .calendar-day.has-events {
+        background: linear-gradient(
+          135deg,
+          rgba(106, 76, 147, 0.1) 0%,
+          rgba(157, 124, 185, 0.1) 100%
+        );
+        font-weight: 700;
+      }
+
+      .info-list {
+        list-style: none;
+      }
+
+      .info-list li {
+        padding: 12px 16px;
+        margin-bottom: 8px;
+        background: var(--surface);
+        border-radius: var(--radius-sm);
+        border-left: 3px solid var(--primary);
+        font-size: 14px;
+        transition: all 0.3s ease;
+      }
+
+      .info-list li:hover {
+        background: var(--primary);
+        color: white;
+        transform: translateX(4px);
+      }
+
+      .info-list a {
+        color: inherit;
+        text-decoration: none;
+        display: block;
+      }
+
+      .region-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+      }
+
+      .region-item {
+        padding: 10px 12px;
+        background: var(--surface);
+        border-radius: var(--radius-sm);
+        font-size: 13px;
+        text-align: center;
+        border: 2px solid transparent;
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+
+      .region-item:hover {
+        border-color: var(--secondary);
+        background: white;
+      }
+
+      /* Footer */
+      footer {
+        background: var(--text-primary);
+        color: white;
+        padding: 60px 24px 24px;
+        margin-top: 60px;
+      }
+
+      .footer-content {
+        max-width: 1400px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        gap: 48px;
+        margin-bottom: 40px;
+      }
+
+      .footer-brand {
+        font-family: "Fraunces", serif;
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 16px;
+      }
+
+      .footer-description {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 15px;
+        line-height: 1.6;
+      }
+
+      .footer-title {
+        font-family: "Fraunces", serif;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 16px;
+      }
+
+      .footer-links {
+        list-style: none;
+      }
+
+      .footer-links li {
+        margin-bottom: 12px;
+      }
+
+      .footer-links a {
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+        font-size: 14px;
+        transition: color 0.3s ease;
+      }
+
+      .footer-links a:hover {
+        color: white;
+      }
+
+      .footer-bottom {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding-top: 24px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+      }
+
+      /* Responsive */
+      @media (max-width: 1024px) {
+        .main-content {
+          grid-template-columns: 1fr;
+        }
+
+        .footer-content {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (max-width: 768px) {
+        .header-search {
+          display: none;
+        }
+
+        .hero-title {
+          font-size: 40px;
+        }
+
+        .quick-categories {
+          grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        }
+
+        .category-links {
+          grid-template-columns: 1fr;
+        }
+
+        .footer-content {
+          grid-template-columns: 1fr;
+          gap: 32px;
+        }
+      }
+
+      /* Loading Animation */
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.5;
+        }
+      }
+
+      .loading {
+        animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-container">
+        <a href="#" class="logo">
+          <div class="logo-icon">M</div>
+          <div class="logo-text">
+            <span class="logo-text-main">Manila</span>
+            <span class="logo-text-sub">CLASSIFIEDS</span>
+          </div>
+        </a>
+
+        <div class="header-search">
+          <div class="search-input-wrapper">
+            <svg
+              class="search-icon"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9 17C13.4183 17 17 13.4183 17 9C17 4.58172 13.4183 1 9 1C4.58172 1 1 4.58172 1 9C1 13.4183 4.58172 17 9 17Z"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M19 19L14.65 14.65"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search for jobs, apartments, services, and more..."
+            />
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <button class="location-btn">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M12 22C16 18 20 14.4183 20 10C20 5.58172 16.4183 2 12 2C7.58172 2 4 5.58172 4 10C4 14.4183 8 18 12 22Z"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Manila
+          </button>
+          <button class="btn-secondary">Sign In</button>
+          <button class="btn-primary">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 5V19M5 12H19"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Post Ad
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Find Everything Manila</h1>
+        <p class="hero-subtitle">
+          Your local marketplace for jobs, housing, services, and community
+        </p>
+      </div>
+
+      <!-- Quick Categories -->
+      <div class="quick-categories">
+        <a href="#" class="category-card">
+          <div class="category-icon">
+            <i data-lucide="briefcase"></i>
+          </div>
+          <div class="category-name">Jobs</div>
+          <div class="category-count">12,453 listings</div>
+        </a>
+        <a href="#" class="category-card">
+          <div class="category-icon">
+            <i data-lucide="home"></i>
+          </div>
+          <div class="category-name">Housing</div>
+          <div class="category-count">3,892 listings</div>
+        </a>
+        <a href="#" class="category-card">
+          <div class="category-icon">
+            <i data-lucide="shopping-bag"></i>
+          </div>
+          <div class="category-name">For Sale</div>
+          <div class="category-count">8,756 listings</div>
+        </a>
+        <a href="#" class="category-card">
+          <div class="category-icon">
+            <i data-lucide="wrench"></i>
+          </div>
+          <div class="category-name">Services</div>
+          <div class="category-count">2,341 listings</div>
+        </a>
+        <a href="#" class="category-card">
+          <div class="category-icon">
+            <i data-lucide="users"></i>
+          </div>
+          <div class="category-name">Community</div>
+          <div class="category-count">1,567 listings</div>
+        </a>
+        <a href="#" class="category-card">
+          <div class="category-icon">
+            <i data-lucide="message-square"></i>
+          </div>
+          <div class="category-name">Forums</div>
+          <div class="category-count">892 active</div>
+        </a>
+        <a href="#" class="category-card">
+          <div class="category-icon">
+            <i data-lucide="file-text"></i>
+          </div>
+          <div class="category-name">Resumes</div>
+          <div class="category-count">445 listings</div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Listings Section -->
+      <div class="listings-section">
+        <!-- Jobs Category -->
+        <div class="category-section">
+          <div class="category-header">
+            <div class="category-title-row">
+              <i class="category-emoji" data-lucide="briefcase"></i>
+              <h2 class="category-title">Jobs</h2>
+            </div>
+            <a href="#" class="view-all-link">
+              View all
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5 12H19M19 12L12 5M19 12L12 19"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="category-links">
+            <a href="#" class="category-link">
+              <span>Accounting + Finance</span>
+              <span class="category-link-count">234</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Admin / Office</span>
+              <span class="category-link-count">567</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Arch / Engineering</span>
+              <span class="category-link-count">189</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Art / Media / Design</span>
+              <span class="category-link-count">312</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Biotech / Science</span>
+              <span class="category-link-count">145</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Customer Service</span>
+              <span class="category-link-count">423</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Education</span>
+              <span class="category-link-count">298</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Software / QA / DBA</span>
+              <span class="category-link-count">678</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Housing Category -->
+        <div class="category-section">
+          <div class="category-header">
+            <div class="category-title-row">
+              <i class="category-emoji" data-lucide="home"></i>
+              <h2 class="category-title">Housing</h2>
+            </div>
+            <a href="#" class="view-all-link">
+              View all
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5 12H19M19 12L12 5M19 12L12 19"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="category-links">
+            <a href="#" class="category-link">
+              <span>Apts / Housing</span>
+              <span class="category-link-count">1,234</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Housing Swap</span>
+              <span class="category-link-count">45</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Housing Wanted</span>
+              <span class="category-link-count">234</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Office / Commercial</span>
+              <span class="category-link-count">189</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Parking / Storage</span>
+              <span class="category-link-count">67</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Real Estate for Sale</span>
+              <span class="category-link-count">456</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Rooms / Shared</span>
+              <span class="category-link-count">892</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Sublets / Temporary</span>
+              <span class="category-link-count">123</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- For Sale Category -->
+        <div class="category-section">
+          <div class="category-header">
+            <div class="category-title-row">
+              <i class="category-emoji" data-lucide="shopping-bag"></i>
+              <h2 class="category-title">For Sale</h2>
+            </div>
+            <a href="#" class="view-all-link">
+              View all
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5 12H19M19 12L12 5M19 12L12 19"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="category-links">
+            <a href="#" class="category-link">
+              <span>Antiques</span>
+              <span class="category-link-count">156</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Appliances</span>
+              <span class="category-link-count">445</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Arts + Crafts</span>
+              <span class="category-link-count">234</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Auto Parts</span>
+              <span class="category-link-count">678</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Baby + Kid</span>
+              <span class="category-link-count">523</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Bikes</span>
+              <span class="category-link-count">289</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Cars + Trucks</span>
+              <span class="category-link-count">1,456</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Electronics</span>
+              <span class="category-link-count">2,134</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Furniture</span>
+              <span class="category-link-count">892</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Motorcycles</span>
+              <span class="category-link-count">567</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Services Category -->
+        <div class="category-section">
+          <div class="category-header">
+            <div class="category-title-row">
+              <i class="category-emoji" data-lucide="wrench"></i>
+              <h2 class="category-title">Services</h2>
+            </div>
+            <a href="#" class="view-all-link">
+              View all
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5 12H19M19 12L12 5M19 12L12 19"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="category-links">
+            <a href="#" class="category-link">
+              <span>Automotive</span>
+              <span class="category-link-count">234</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Beauty</span>
+              <span class="category-link-count">189</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Cell / Mobile</span>
+              <span class="category-link-count">145</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Computer</span>
+              <span class="category-link-count">567</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Creative</span>
+              <span class="category-link-count">298</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Financial</span>
+              <span class="category-link-count">178</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Legal</span>
+              <span class="category-link-count">123</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Lessons</span>
+              <span class="category-link-count">267</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Community Category -->
+        <div class="category-section">
+          <div class="category-header">
+            <div class="category-title-row">
+              <i class="category-emoji" data-lucide="users"></i>
+              <h2 class="category-title">Community</h2>
+            </div>
+            <a href="#" class="view-all-link">
+              View all
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5 12H19M19 12L12 5M19 12L12 19"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="category-links">
+            <a href="#" class="category-link">
+              <span>Activities</span>
+              <span class="category-link-count">345</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Artists</span>
+              <span class="category-link-count">178</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Childcare</span>
+              <span class="category-link-count">234</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Classes</span>
+              <span class="category-link-count">456</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Events</span>
+              <span class="category-link-count">789</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Local News</span>
+              <span class="category-link-count">123</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Musicians</span>
+              <span class="category-link-count">267</span>
+            </a>
+            <a href="#" class="category-link">
+              <span>Volunteers</span>
+              <span class="category-link-count">145</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <!-- Event Calendar -->
+        <div class="sidebar-card">
+          <h3 class="sidebar-title">
+            <i data-lucide="calendar"></i>
+            Event Calendar
+          </h3>
+          <div class="calendar">
+            <div class="calendar-header">S</div>
+            <div class="calendar-header">M</div>
+            <div class="calendar-header">T</div>
+            <div class="calendar-header">W</div>
+            <div class="calendar-header">T</div>
+            <div class="calendar-header">F</div>
+            <div class="calendar-header">S</div>
+
+            <div class="calendar-day"></div>
+            <div class="calendar-day"></div>
+            <div class="calendar-day"></div>
+            <div class="calendar-day"></div>
+            <div class="calendar-day"></div>
+            <div class="calendar-day">1</div>
+            <div class="calendar-day">2</div>
+            <div class="calendar-day">3</div>
+            <div class="calendar-day">4</div>
+            <div class="calendar-day has-events">5</div>
+            <div class="calendar-day">6</div>
+            <div class="calendar-day">7</div>
+            <div class="calendar-day">8</div>
+            <div class="calendar-day">9</div>
+            <div class="calendar-day">10</div>
+            <div class="calendar-day">11</div>
+            <div class="calendar-day has-events">12</div>
+            <div class="calendar-day">13</div>
+            <div class="calendar-day">14</div>
+            <div class="calendar-day has-events">15</div>
+            <div class="calendar-day">16</div>
+            <div class="calendar-day">17</div>
+            <div class="calendar-day has-events">18</div>
+            <div class="calendar-day">19</div>
+            <div class="calendar-day">20</div>
+            <div class="calendar-day">21</div>
+            <div class="calendar-day has-events">22</div>
+            <div class="calendar-day">23</div>
+            <div class="calendar-day">24</div>
+            <div class="calendar-day">25</div>
+            <div class="calendar-day">26</div>
+            <div class="calendar-day">27</div>
+            <div class="calendar-day">28</div>
+          </div>
+        </div>
+
+        <!-- Help & Safety -->
+        <div class="sidebar-card">
+          <h3 class="sidebar-title">
+            <i data-lucide="shield"></i>
+            Help & Safety
+          </h3>
+          <ul class="info-list">
+            <li><a href="#">Avoid Scams & Fraud</a></li>
+            <li><a href="#">Personal Safety Tips</a></li>
+            <li><a href="#">Help & FAQ</a></li>
+            <li><a href="#">Report Issue</a></li>
+          </ul>
+        </div>
+
+        <!-- Philippines Regions -->
+        <div class="sidebar-card">
+          <h3 class="sidebar-title">
+            <i data-lucide="map-pin"></i>
+            Philippines Regions
+          </h3>
+          <div class="region-list">
+            <div class="region-item">Bacolod</div>
+            <div class="region-item">Bicol</div>
+            <div class="region-item">Cagayan de Oro</div>
+            <div class="region-item">Cebu</div>
+            <div class="region-item">Davao City</div>
+            <div class="region-item">Iloilo</div>
+            <div class="region-item">Pampanga</div>
+            <div class="region-item">Zamboanga</div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div>
+          <div class="footer-brand">Manila Classifieds</div>
+          <p class="footer-description">
+            Your trusted local marketplace connecting communities across Manila
+            and the Philippines. Buy, sell, find jobs, housing, and services all
+            in one place.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">About</h4>
+          <ul class="footer-links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Support</h4>
+          <ul class="footer-links">
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Safety Tips</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Connect</h4>
+          <ul class="footer-links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Mobile App</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2026 Manila Classifieds. All rights reserved.
+      </div>
+    </footer>
+
+    <script>
+      // Initialize Lucide icons
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

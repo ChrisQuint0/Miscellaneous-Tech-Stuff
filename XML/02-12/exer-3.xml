@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="exer-3.xsl" ?>
+
+<survey>
+  <!-- Table 1 -->
+  <table1>
+    <question number="1">
+      <actual-question>
+        Is there free circulation of air through and about the building in which you work?
+      </actual-question>
+      <yes>468</yes>
+      <yes-fined></yes-fined>
+      <no>249</no>
+      <blank>93</blank>
+      <total>810</total>
+    </question>
+  
+     <question number="2">
+      <actual-question>
+        Are there offensive odors in the rooms occupied by the employees?
+      </actual-question>
+      <yes>342</yes>
+      <yes-fined></yes-fined>
+      <no>233</no>
+      <blank>235</blank>
+      <total>810</total>
+    </question>
+  
+     <question number="3">
+      <actual-question>
+        Are there facilities for washing?
+      </actual-question>
+      <yes>460</yes>
+      <yes-fined>14</yes-fined>
+      <no>124</no>
+      <blank>226</blank>
+      <total>824</total>
+    </question>
+  
+    <question number="4">
+      <actual-question>
+        Are seats provided, as prescribed by law?
+      </actual-question>
+      <yes>320</yes>
+      <yes-fined></yes-fined>
+      <no>192</no>
+      <blank>298</blank>
+      <total>810</total>
+    </question>
+  
+    <question number="5">
+      <actual-question>
+        Are employees furnished with pure drinking water?
+      </actual-question>
+      <yes>527</yes>
+      <yes-fined></yes-fined>
+      <no>102</no>
+      <blank>181</blank>
+      <total>810</total>
+    </question>
+  
+    <question number="6">
+      <actual-question>
+        Does the work require the employees to stoop over?
+      </actual-question>
+      <yes>587</yes>
+      <yes-fined></yes-fined>
+      <no>116</no>
+      <blank>107</blank>
+      <total>810</total>
+    </question>
+  
+    <question number="7">
+      <actual-question>
+        Are there proper and separate facilities for change of dress by males and females?
+      </actual-question>
+      <yes>354</yes>
+      <yes-fined></yes-fined>
+      <no>221</no>
+      <blank>235</blank>
+      <total>810</total>
+    </question>
+  
+    <question number="8">
+      <actual-question>
+        Are there separate water-closets for males and females[?]
+      </actual-question>
+      <yes>509</yes>
+      <yes-fined></yes-fined>
+      <no>126</no>
+      <blank>175</blank>
+      <total>810</total>
+    </question>
+  
+    <question number="9">
+      <actual-question>
+        Are there stairways from the windows outside?
+      </actual-question>
+      <yes>350</yes>
+      <yes-fined></yes-fined>
+      <no>318</no>
+      <blank>148</blank>
+      <total>816</total>
+    </question>
+  
+    <question number="10">
+      <actual-question>
+        Are the rooms supplied with water pipes?
+      </actual-question>
+      <yes>265</yes>
+      <yes-fined></yes-fined>
+      <no>385</no>
+      <blank>165</blank>
+      <total>815</total>
+    </question>
+  
+    <question number="11">
+      <actual-question>
+        Are there hose attachments?
+      </actual-question>
+      <yes>224</yes>
+      <yes-fined></yes-fined>
+      <no>375</no>
+      <blank>218</blank>
+      <total>817</total>
+    </question>
+  
+    <question number="12">
+      <actual-question>
+        Are there water tanks and buckets on each floor?
+      </actual-question>
+      <yes>236</yes>
+      <yes-fined></yes-fined>
+      <no>387</no>
+      <blank>198</blank>
+      <total>821</total>
+    </question>
+  </table1>
+  
+  <table2>
+    <question>
+      <actual-question>
+        [If there are offensive odors in the rooms], from what causes?
+      </actual-question>
+      <water-closet>
+        81
+      </water-closet>
+      <other-sources>
+        73
+      </other-sources>
+      <total-responses>
+        154
+      </total-responses>
+    </question>
+  </table2>
+  
+  <table3>
+    <question>
+      <actual-question>
+        Are employees compelled to stand or sit at their work?
+      </actual-question>
+      <sit>
+        469
+      </sit>
+      <stand>175</stand>
+      <optional>67</optional>
+      <blank>99</blank>
+      <total-responses>810</total-responses>
+    </question>
+  </table3>
+</survey>
+
+
+
