@@ -1,0 +1,298 @@
+COMPREHENSIVE NOTES ON DTD (DOCUMENT TYPE DEFINITION)
+
+1. Introduction to DTD
+
+A Document Type Definition (DTD) defines the structure and legal elements and attributes of an XML document. It specifies:
+
+* What elements are allowed
+* The order of elements
+* How many times elements may occur
+* What attributes elements may have
+* The types and default values of attributes
+
+DTD ensures that an XML document follows a predefined structure.
+
+---
+
+2. Element Content Models
+
+DTD uses specific symbols to define how elements appear and how often they may occur.
+
+Example structure:
+
+Exactly one name,
+followed by at most one greeting,
+followed by zero or more address lines,
+followed by zero or more telephone or fax numbers,
+followed by at least one email.
+
+DTD expression:
+
+name, greet?, addr*, (tel | fax)*, email+
+
+Meaning of symbols:
+
+1. Sequence (,)
+
+   * Elements must appear in the specified order.
+   * Example: name, greet?
+     The name element must appear first, optionally followed by greet.
+
+2. Optional (?)
+
+   * Element appears zero or one time.
+   * greet? means the greet element is optional.
+
+3. Zero or more (*)
+
+   * Element may appear any number of times, including zero.
+   * addr* means zero or more address elements.
+   * (tel | fax)* means zero or more occurrences of either tel or fax.
+
+4. One or more (+)
+
+   * Element must appear at least once.
+   * email+ means one or more email elements.
+
+5. Choice (|)
+
+   * Indicates alternatives.
+   * tel | fax means either a tel element or a fax element.
+
+---
+
+3. Special Content Keywords
+
+DTD defines special content types:
+
+1. #PCDATA
+
+   * Parsed Character Data.
+   * Text content that the XML parser interprets.
+   * Example:
+
+     <!ELEMENT name (#PCDATA)>
+
+2. EMPTY
+
+   * Element has no content.
+   * Example:
+
+     <!ELEMENT br EMPTY>
+
+3. ANY
+
+   * Element may contain any content.
+   * Example:
+
+     <!ELEMENT note ANY>
+
+---
+
+4. Example: Address Book DTD
+
+XML Declaration:
+
+<?xml version="1.0" encoding="UTF-8" ?>
+
+Internal DTD example:
+
+<!DOCTYPE addressbook [
+  <!ELEMENT addressbook (person*)>
+
+  <!ELEMENT person (name, greet?, address*, (fax | tel)*, email+)>
+
+  <!ELEMENT name (#PCDATA)>
+
+  <!ELEMENT greet (#PCDATA)>
+
+  <!ELEMENT address (#PCDATA)>
+
+  <!ELEMENT tel (#PCDATA)>
+
+  <!ELEMENT fax (#PCDATA)>
+
+  <!ELEMENT email (#PCDATA)>
+
+]>
+
+Explanation:
+
+* addressbook contains zero or more person elements.
+* person must contain:
+
+  * exactly one name
+  * optional greet
+  * zero or more address elements
+  * zero or more tel or fax elements
+  * at least one email
+* All leaf elements contain text data (#PCDATA).
+
+---
+
+5. Attribute Declarations in DTD
+
+Attributes are declared using <!ATTLIST>.
+
+General syntax:
+
+<!ATTLIST element-name
+  attribute-name1 type1 default-value1
+  attribute-name2 type2 default-value2
+  ...
+>
+
+Example:
+
+<!ATTLIST height dim CDATA "cm">
+
+This means:
+
+* The element height has an attribute dim.
+* Its type is CDATA.
+* Its default value is "cm".
+
+---
+
+6. Attribute Types
+
+Common attribute types:
+
+1. CDATA
+
+   * Character data.
+   * Any text value.
+
+2. Enumerated type
+
+   * A list of allowed values.
+   * Example:
+     (cm | in)
+   * Only one of the listed values is allowed.
+
+3. ID
+
+   * Unique identifier.
+   * Must be unique within the document.
+
+4. IDREF
+
+   * References an existing ID.
+
+5. IDREFS
+
+   * Multiple ID references separated by spaces.
+
+---
+
+7. Attribute Default Values
+
+Attribute default declarations:
+
+1. value
+
+   * A default value is provided.
+
+2. #REQUIRED
+
+   * Attribute must appear in the element.
+
+3. #IMPLIED
+
+   * Attribute is optional.
+
+4. #FIXED value
+
+   * Attribute must always have the specified value.
+
+Example:
+
+<!ELEMENT height (#PCDATA)>
+
+<!ATTLIST height
+  dimension (cm | in) #REQUIRED
+  accuracy CDATA #IMPLIED
+  resizable CDATA #FIXED "yes"
+>
+
+Explanation:
+
+* dimension must be either cm or in and is required.
+* accuracy is optional.
+* resizable is always "yes".
+
+---
+
+8. Example Using ID, IDREF, IDREFS
+
+<!DOCTYPE family [
+  <!ELEMENT family (person)*>
+
+  <!ELEMENT person (name)>
+
+  <!ELEMENT name (#PCDATA)>
+
+  <!ATTLIST person
+    id ID #REQUIRED
+    mother IDREF #IMPLIED
+    father IDREF #IMPLIED
+    children IDREFS #IMPLIED
+  >
+
+]>
+
+Explanation:
+
+* id is a unique identifier for each person.
+* mother and father reference another person's ID.
+* children can reference multiple IDs.
+* ID values must be unique.
+* IDREF and IDREFS must refer to existing IDs.
+
+---
+
+9. Types of DTD
+
+DTD can be internal or external.
+
+1. Internal DTD
+
+   * Declared inside the XML document.
+   * Written within square brackets after DOCTYPE.
+
+Example:
+
+<!DOCTYPE addressbook [
+  ... DTD declarations ...
+]>
+
+2. External DTD
+
+   * Stored in a separate file.
+   * Referenced using SYSTEM or PUBLIC.
+
+Local file system example:
+
+<!DOCTYPE db SYSTEM "schema.dtd">
+
+Remote file system example:
+
+<!DOCTYPE db SYSTEM "http://example.com/schema.dtd">
+
+In external DTD:
+
+* The XML document and the DTD are separate files.
+* The DTD may be stored locally or accessed remotely via a URL.
+
+---
+
+Summary
+
+DTD is used to define the structure of XML documents. It specifies:
+
+* Elements and their allowed content
+* Order and frequency of elements
+* Attribute names, types, and default values
+* Internal or external storage of schema definitions
+
+It ensures that XML documents follow a consistent and valid structure.

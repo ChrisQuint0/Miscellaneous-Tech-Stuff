@@ -1,0 +1,4745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publications>
+
+  <title>DBIS: Publication</title>
+
+  <publication type="techreport" bib-id="may-lausen-tr136-infoextr" local-id="TR136-InfoExtr">
+
+    <!-- Details of publication 1 -->
+
+    <shorttitle> TR 136: Information Extraction from the Web with Florid</shorttitle>
+
+    <techreport>Technical Report 136</techreport>
+
+    <institute> Institute for Information</institute>
+
+    <university>University of Freiburg </university>
+
+    <date>March</date>
+
+    <year>2000</year>
+
+    <title>Information Extraction from the Web</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+      <author>Georg Lausen</author>
+
+    </authors>
+
+    <!-- Abstract of Publication 1 -->
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          The goal of information extraction from the Web is to provide an integrated
+          view on data from autonomous, heterogeneous information sources. The main
+          problem with current wrapper/mediator approaches is that they rely on very
+          different formalisms and tools for wrappers and mediators, thus leading to an
+          "impedance mismatch" between the wrapper and mediator level. Additionally,
+          most approaches nowadays are restricted to access information only from a
+          fixed set of sources. On the other hand,
+          <i>generic</i>
+           Web
+          <i>querying</i>
+
+          approaches are restricted to pure syntactical and structural queries and do
+          not deal with semantical issues.
+
+        </p>
+
+        <p> In this paper, we discuss an integrated architecture for Web exploration,
+          wrapping, mediation, and querying. Our system is based on a unified framework
+          - i.e., data model and language - in which all tasks are performed. We regard
+          the Web and its contents as a unit, represented in an object-oriented data
+          model: the Web structure, given by its hyperlinks, the parse-trees of Web
+          pages, and its contents are all included in the internal world model of the
+          system. The advantage of this unified view is that the same data manipulation
+          and querying language can be used for the Web structure and the application-
+          level model: The model is complemented by a rule-based object-oriented
+          language which is extended by Web access capabilities and structured document
+          analysis. Thus, accessing Web pages, wrapping, mediating, and querying
+          information can be done using the same language. </p>
+
+        <p>
+          This integration also allows for data-driven Web exploration which is
+          independent from a given network of individual predefined wrappers and
+          mediators. Thus, in addition to the classical wrapper and mediator
+          functionality, a system with this architecture can be equipped with
+
+          <i>Web navigation</i>
+
+          and
+
+          <i>exploration</i>
+
+          functionality. Queries to existing Web indexing and searching engines can
+          also be integrated.
+
+        </p>
+
+        <p> In particular, we present a methodology for reusing generic rule patterns
+          for typical extraction, integration, and restructuring tasks using this
+          framework. In an abstract sense, the system contains a universal wrapper,
+          which can be applied to arbitrary Web pages that the system learns about
+          during information processing. Equipped with suitably intelligent rules, the
+          system can potentially explore initially unknown parts of the Web, thus
+          coping with the steady growth of the Web. </p>
+
+        <p>
+          We show the practicability of our approach by using the
+
+          <a shape="rect" href="http://www.informatik.uni-freiburg.de/~dbis/florid/"> FLORID</a>
+
+            system. The approach is illustrated by two case-studies.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <!-- Comment of Publication 1 -->
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="TR136-InfoExtr.ps">[ps-File]</a>
+
+        </p>
+
+        <p> Excerpts of this work have been published in </p>
+
+        <ul>
+
+          <li>
+
+            <reference target="may-idm-99">Modeling and Querying Structure and Contents
+              of the Web</reference>
+             ,
+            <i>International Workshop on Internet Data Management (IDM'99)</i>
+
+              , Florence, Sept. 2, 1999,
+
+          </li>
+
+          <li>
+
+            <reference target="may-ludaescher-lausen-himmeroeder-wwwcm-99">A Unified
+              Framework for Wrapping, Mediating and Restructuring Information from the
+              Web</reference>
+             ,
+            <i>International Workshop on the World-Wide Web and Conceptual Modeling
+              (WWWCM'99)</i>
+            , Paris, Nov. 15-18, 1999,
+
+          </li>
+
+          <li>
+
+            <reference target="may-adc2k-00">
+                An Integrated Architecture for Exploring, Wrapping, Mediating
+                and Restructuring Information from the Web
+              </reference>
+             ,
+
+            <i>
+                Australasian Database Conference
+                (ADC 2000)
+              </i>
+
+              , Canberra, Jan. 31 -Feb. 3, 2000,
+
+          </li>
+
+          <li>
+
+            <reference target="may-dagstuhl-99">Slides</reference>
+
+              have been presented at
+
+            <i>Dagstuhl-Seminar "Declarative Data Access on the Web"</i>
+
+              , Sept. 12-17, 1999, Schloss Dagstuhl, Germany.
+
+          </li>
+
+          <li>
+
+              The
+            <reference target="may-TR-Mondial-99">MONDIAL</reference>
+
+              Case Study describes a practical application.
+
+          </li>
+
+        </ul>
+
+        <p>
+
+            A
+          <reference target="lausen-may-IS-04">journal version</reference>
+
+            appeared with
+          <em>Informations Systems</em>
+          , 2004.
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 2  -->
+
+  <publication type="conference" bib-id="may-adc2k-00" local-id="adc2k">
+
+    <!-- Details -->
+
+    <shorttitle> Abstract ADC2000</shorttitle>
+
+    <conference short="ADC 2000"> Australasian Database Conference (ADC 2000)</conference>
+
+    <place>Canberra, Australia</place>
+
+    <date>Jan. 31 - Feb. 3</date>
+
+    <year>2000</year>
+
+    <month>1</month>
+
+    <day>31</day>
+
+    <proceedings>Australian Computer Science Communications, Vol. 2, No. 2, IEEE CS Press</proceedings>
+
+    <page>82-89</page>
+
+    <title>An Integrated Architecture for Exploring, Wrapping, Mediating and
+    Restructuring Information from the Web </title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <!-- Abstract Pub 2 -->
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> The goal of information extraction from the Web is to provide an
+        integrated view on heterogeneous information sources. A main problem with
+        current wrapper/mediator approaches is that they rely on very different
+        formalisms and tools for wrappers and mediators, thus leading to an
+        "impedance mismatch" between the wrapper and mediator level. Additionally,
+        most approaches currently are tailored to access information from a fixed set
+        of sources. In this paper, we discuss an architecture where Web exploration,
+        wrapping, mediation, and querying is done in an integrated system. Such an
+        architecture reveals significant advantages in combination with a unified
+        framework - i.e., data model and language - in which all tasks are done. Our
+        approach is based on a unified model of the application-level information and
+        the relevant fragment of the Web, and on an integrated language for accessing
+        the Web, wrapping, mediating, and querying information. In this world model,
+        in contrast to other approaches, the relevant part of the Web becomes a part
+        of the internal world model of the system. This allows for a data-driven Web
+        exploration which is independent from a given network of individual
+        predefined wrappers and mediators. Thus, in addition to the classical
+        wrapping and mediating functionality, a system in this architecture can be
+        equipped with Web navigation and exploration functionality. In an abstract
+        sense, the system comprises a universal wrapper which can be applied to
+        arbitrary Web data sources which become known to the system during
+        information processing. Equipped with suitably intelligent rules, the system
+        can potentially explore before unknown parts of the Web, thus coping with the
+        steady growth of the Web. The architecture is implemented in the FLORID
+        system. </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <!-- Comment Pub 2 -->
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="adc2000sl.ps"> [Slides]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 3 -->
+
+  <publication type="conference" bib-id="may-gi-idb2000-00" local-id="gi-idb2000">
+
+    <!-- Details Pub 3 -->
+
+    <shorttitle>Abstract IDB2000</shorttitle>
+
+    <conference short="IDB2000">
+
+      <a shape="rect" href="http://wwwiti.cs.uni-       magdeburg.de/iti_db/workshops/IDB2000/">Workshop Internet-Datenbanken</a>
+
+      , GI-Jahrestagung 2000
+
+    </conference>
+
+    <place>Berlin, Germany</place>
+
+    <date>Sept. 19</date>
+
+    <year>2000</year>
+
+    <month>9</month>
+
+    <day>19</day>
+
+    <proceedings>Published in Technical Report No. 12, Fak. f. Informatik, Univ.
+    Magdeburg, 2000</proceedings>
+
+    <page>31-45</page>
+
+    <title>Handling XML with a Deductive Database System</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <!-- Abstract Pub 3 -->
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> We propose an integration of XML with F-Logic, a deductive object-
+        oriented database framework. The F-Logic data model is in fact a
+        semistructured data model, exhibiting many similarities with the XML/DOM data
+        model: there is a canonical mapping from XML to a fragment of F-Logic. The
+        advantages of the integration are that the full expressiveness of F-Logic
+        (and the functionality of the Florid system) can be applied to the data,
+        providing an intuitive language for view definitions, updates, schema
+        reasoning, Web exploration, integration (also with non-XML sources) etc.
+        Especially, extended XML features, such as XML Schema or XLink can easily be
+        prototypically implemented and evaluated. </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <!-- Comment Pub 3 -->
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="idb2000.ps"> [Postscript]</a>
+
+        </p>
+
+        <p>
+
+          <a shape="rect" href="idb2000sl.ps"> [Slides]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 4 -->
+
+  <publication type="techreport" bib-id="may-TR149-XPathLog-01" local-id="TR149-XPathLog">
+
+    <!-- Details Pub 4 -->
+
+    <shorttitle>TR 149: XPath-Logic and XPathLog: A Logic-Based Approach for
+    Declarative XML Data Manipulation</shorttitle>
+
+    <techreport>Technical Report 149</techreport>
+
+    <institute>Institut für Informatik</institute>
+
+    <university>Universität Freiburg</university>
+
+    <date>February</date>
+
+    <year>2001</year>
+
+    <month>2</month>
+
+    <title>XPath-Logic and XPathLog: A Logic-Based Approach for Declarative XML
+    Data Manipulation </title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          In this work, a logic-based framework for handling XML data is proposed.
+          XPath-Logic embeds an extension of the XPath query language into first-order
+          logic. We give a model-theoretic semantics of XPath-Logic formulas based on
+          answer-sets. XPathLog is the Horn fragment of XPath-Logic, providing a logic-
+          based language for manipulating and integrating XML data. Due to the close
+          relationship with XPath, the semantics of rules is easy to grasp. In contrast
+          to other approaches, the XPath syntax and semantics is also used for a
+          declarative specification how the database should be
+
+          <i>updated</i>
+
+          : when used in rule heads, XPath filters are interpreted as specifications of
+          elements and properties which should be added to the database. The formal
+          semantics is defined wrt. a Herbrand structure which covers the XML data
+          model. XPathLog has been implemented in
+
+          <a shape="rect" href="../../lopix">LoPiX</a>
+
+          .
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="TR149-XPathLog.ps">[ps-File]</a>
+
+        </p>
+
+        <p>
+
+          Revised versions can be found in the
+
+          <reference target="may-habil-01">Habilitation Thesis</reference>
+
+          and in
+
+          <reference target="may-TPLP-04">Theory and Practice of Logic Programming,
+          2004</reference>
+
+          .
+
+          <br/>
+
+          Further documentation can be found on the
+
+          <a shape="rect" href="../../lopix/">LoPiX</a>
+
+          project homepage.
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 5 -->
+
+  <publication type="conference" bib-id="may-DBPL-01" local-id="dbpl01">
+
+    <!-- Details of Pub 5 -->
+
+    <shorttitle> Abstract DBPL 01</shorttitle>
+
+    <conference>Workshop on Databases and Programming Languages (DBPL
+    2001)</conference>
+
+    <place>Frascati, Italy</place>
+
+    <date>Sept., 8-10</date>
+
+    <month>9</month>
+
+    <day>8</day>
+
+    <year>2001</year>
+
+    <proceedings>LNCS 2397, Springer</proceedings>
+
+    <page>165-181</page>
+
+    <title>A Rule-based Querying and Updating Language for XML</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>XPathLog</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          We present XPathLog as a Datalog-style extension to XPath. The querying part
+          extends XPath with binding multiple variables to XML nodes which are
+          "traversed" when evaluating an XPath expression. Data manipulation is done in
+          a rule-based way. In contrast to other approaches, the XPath-based syntax and
+          semantics is also used for a declarative specification how the database
+          should be
+
+          <i>updated</i>
+
+          : XPath filters are interpreted as specifications of elements and properties
+          which should be added to the database. In this paper, we focus on the
+          theoretical aspects of XPathLog. XPathLog has been implemented in the
+
+          <a shape="rect" href="../../lopix/">LoPiX</a>
+
+          system.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="dbpl01talk.ps"> [Slides]</a>
+
+        </p>
+
+        <p>
+
+          Extended versions can be found in the
+
+          <reference target="may-habil-01">Habilitation thesis</reference>
+
+          and in
+
+          <reference target="may-TPLP-04">Theory and Practice of Logic Programming,
+          2004</reference>
+
+          .
+
+          <br/>
+
+          Further documentation can be found on the
+
+          <a shape="rect" href="../../lopix/">LoPiX</a>
+
+          project homepage.
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 6 -->
+
+  <publication type="conference" bib-id="may-diweb-01" local-id="diweb01">
+
+    <!-- Details of Pub 6  -->
+
+    <shorttitle>Abstract DIWeb 01</shorttitle>
+
+    <conference short="DIWeb 01"> CAiSE Workshop Data Integration over the Web
+    (DIWeb'01)</conference>
+
+    <place>Interlaken, Switzerland</place>
+
+    <date>June, 4/5</date>
+
+    <month>6</month>
+
+    <day>4</day>
+
+    <year>2001</year>
+
+    <proceedings>Published as Technical Report, Univ. Montpellier (LIRM),
+    France</proceedings>
+
+    <page>2-16</page>
+
+    <title>Integration of XML Data in XPathLog</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>XPathLog</project>
+
+    <!--Abstract Pub 6  -->
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          XPathLog is a logic-based language for manipulating and integrating XML data.
+          It extends the XPath query language with Prolog-style variables. Due to the
+          close relationship with XPath, the semantics of rules is easy to grasp.
+          XPathLog defines a semantics for XPath expressions in rule heads,
+
+          <em>declaratively</em>
+
+          specifying how to create and update XML trees and nodes. In this paper, we
+          show how XPathLog can be used to manipulate and restructure a database
+          containing several XML trees. By linking subtrees, fusing elements and
+          defining synonyms, data can be restructured and integrated into result trees.
+          We illustrate the practicability of the approach by excerpts of a case study
+          done with the
+
+          <a shape="rect" href="../../lopix">LoPiX</a>
+
+          system.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="caise-2001.ps"> [postscript]</a>
+
+          <br/>
+
+          <a shape="rect" href="caise01talk.ps"> [slides]</a>
+
+          <br/>
+
+        </p>
+
+        <p>
+
+          Extended versions can be found in the
+
+          <reference target="may-habil-01">Habilitation thesis</reference>
+
+          and in
+
+          <reference target="may-TPLP-04">Theory and Practice of Logic Programming,
+          2004</reference>
+
+          .
+
+          <br/>
+
+          Further documentation can be found on the
+
+          <a shape="rect" href="../../lopix/">LoPiX</a>
+
+          project homepage.
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 7 -->
+
+  <publication type="conference" bib-id="may-behrends-fmldo-01" local-id="fmldo01">
+
+    <!-- Details of Pub 7 -->
+
+    <shorttitle> Abstract FMLDO 01</shorttitle>
+
+    <conference short="FMLDO 2001">
+
+      <a shape="rect" href="http://www.fmldo.org/FMII-2001/">Intl. Workshop on
+    Foundations of Models and Languages for Data and Objects (FMLDO 2001)</a>
+
+    </conference>
+
+    <place>Roma, Italy</place>
+
+    <date>Sept., 16-18</date>
+
+    <month>9</month>
+
+    <day>16</day>
+
+    <year>2001</year>
+
+    <proceedings>Published as Technical report, Dept. of Computer Science, Univ.
+    Manchester, UK. Post-conference proceedings should have been appeared with
+    Springer LNCS. </proceedings>
+
+    <title>On an XML Data Model for Data Integration</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+      <author>Erik Behrends</author>
+
+    </authors>
+
+    <project>XPathLog</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          We consider the problem of integrating XML data using a warehouse strategy.
+          In particular, we show that the DOM model and the XML Query Data Model are
+          not suitable for data integration. We present a solution by a node-labeled
+          graph-based data model, called
+
+          <i>XTreeGraph</i>
+
+          , for an internal XML
+
+          <i>database</i>
+
+          that represents multiple, overlapping XML trees, or
+
+          <i>tree views</i>
+
+          . The practicability of the approach is shown by a rule-based XML querying
+          and manipulation language, implemented in the
+
+          <a shape="rect" href="../../lopix/">LoPiX</a>
+
+          system.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="fmldo01final.ps"> [postscript]</a>
+
+          <br/>
+
+          <a shape="rect" href="fmldo01final.pdf"> [pdf]</a>
+
+          <br/>
+
+          <a shape="rect" href="fmldo01talk.ps"> [Slides]</a>
+
+        </p>
+
+        <p>
+
+          An extended version can be found in the
+
+          <reference target="may-habil-01">Habilitation thesis</reference>
+
+          and in
+
+          <reference target="may-TPLP-04">Theory and Practice of Logic Programming,
+          2004</reference>
+
+          .
+
+          <br/>
+
+          Further documentation can be found on the
+
+          <a shape="rect" href="../../lopix/">LoPiX</a>
+
+          project homepage.
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 8 -->
+
+  <publication type="thesis" bib-id="may-habil-01">
+
+    <!-- Details of Pub 8 -->
+
+    <shorttitle>W.May: Habilitation Thesis</shorttitle>
+
+    <thesis>Habilitation Thesis</thesis>
+
+    <institute>Institut für Informatik</institute>
+
+    <university>Universität Freiburg</university>
+
+    <date>April</date>
+
+    <year>2001</year>
+
+    <month>4</month>
+
+    <title>XPath-Logic and XPathLog: A Logic-Based Approach to XML Data
+    Manipulation</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <linkto>http://user.informatik.uni-goettingen.de/~may/Habil/</linkto>
+
+  </publication>
+
+  <!-- Publication 9 -->
+
+  <publication type="conference" bib-id="may-ideas-01" local-id="ideas01">
+
+    <!-- Details of Pub 9 -->
+
+    <shorttitle> Abstract IDEAS 01</shorttitle>
+
+    <conference short="IDEAS 01"> International Database Engineering &amp; and
+    Applications Workshop (IDEAS'01)</conference>
+
+    <place>Grenoble, France</place>
+
+    <date>July, 16-18</date>
+
+    <month>7</month>
+
+    <day>16</day>
+
+    <year>2001</year>
+
+    <proceedings>IEEE Computer Society Press</proceedings>
+
+    <page>123-128</page>
+
+    <title>XPathLog: A Declarative, Native XML Data Manipulation Language</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>XPathLog</project>
+
+    <!-- Abstract of Pub 9 -->
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          XPathLog is a logic-based language for manipulating and integrating XML data.
+          It extends the XPath query language with Prolog-style variables. Due to the
+          close relationship with XPath, the semantics of rules is easy to grasp. In
+          contrast to other approaches, the XPath syntax and semantics is also used for
+          a declarative specification how the database should be
+
+          <i>updated</i>
+
+          : when used in rule heads, XPath filters are interpreted as specifications of
+          elements and properties which should be added to the database. The formal
+          semantics is defined wrt. a graph Herbrand structure which covers the XML
+          tree data model. XPathLog has been implemented in
+
+          <a shape="rect" href="../../">LoPiX</a>
+
+          .
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="ideas01talk.ps"> [Slides]</a>
+
+        </p>
+
+        <p>
+
+          Extended versions can be found in the
+
+          <reference target="may-habil-01">Habilitation thesis</reference>
+
+          and in
+
+          <reference target="may-TPLP-04">Theory and Practice of Logic Programming,
+          2004</reference>
+
+          .
+
+          <br/>
+
+          Further documentation can be found on the
+
+          <a shape="rect" href="../../lopix/">LoPiX</a>
+
+          project homepage.
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 10 -->
+
+  <publication type="conference" bib-id="may-krdb-01" local-id="krdb01">
+
+    <shorttitle> Abstract KRDB 01</shorttitle>
+
+    <conference short="KRDB 2001"> International Workshop on Knowledge
+    Representation meets Databases (KRDB 2001)</conference>
+
+    <place>Roma, Italy</place>
+
+    <date>Sept., 15</date>
+
+    <month>9</month>
+
+    <day>15</day>
+
+    <year>2001</year>
+
+    <proceedings>
+
+    Published as Vol.45,
+
+      <a shape="rect" href="http://sunsite.informatik.rwth-     aachen.de/Publications/CEUR-WS/index.html">CEUR Workshop Proceedings</a>
+
+    , Technical University of Aachen (RWTH)
+
+    </proceedings>
+
+    <page>73-82</page>
+
+    <title>A Framework for Generic Integration of XML Data Sources</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>XPathLog</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> We consider the situation where several XML sources have to be integrated
+        which are assumed to contain complementary, overlapping contents. These
+        overlappings have to be detected, and then appropriate operations have to be
+        applied to the internal database to generate a result view. The approach uses
+        the XPathLog language for formulating queries and updates of an XML
+        database. </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="krdb01.ps"> [postscript]</a>
+
+          <br/>
+
+          <a shape="rect" href="krdb01.pdf"> [pdf]</a>
+
+          <br/>
+
+          <a shape="rect" href="krdb01talk.ps"> [Slides]</a>
+
+        </p>
+
+        <p>
+
+          Further documentation can be found on the
+
+          <a shape="rect" href="../../lopix/">LoPiX</a>
+
+          project homepage.
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 11 -->
+
+  <publication type="conference" bib-id="may-vldb01demo-01" local-id="vldb01demo">
+
+    <shorttitle> Abstract VLDB01 Demo</shorttitle>
+
+    <conference short="VLDB">
+
+      <a shape="rect" href="http://www.dia.uniroma3.it/vldb2001">Intl. Conf. on
+    Very Large Databases (VLDB)</a>
+
+    - Demonstration Track
+
+    </conference>
+
+    <place>Rome, Italy</place>
+
+    <date>Sept., 11-14</date>
+
+    <month>9</month>
+
+    <day>11</day>
+
+    <year>2001</year>
+
+    <page>707</page>
+
+    <title>LoPiX: A System for XML Data Integration and Manipulation</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>XPathLog</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="../../lopix/">LoPiX</a>
+
+          is an implementation of XPathLog, an XML/XPath-native, rule-based programming
+          language for manipulation and integration of XML documents. The main
+          syntactical constructs are XPath expressions, extended with variables. Due to
+          the close relationship with XPath, the semantics of rules is easy to grasp.
+          In contrast to other approaches, the XPath syntax and semantics is also used
+          for a declarative specification how the database should be
+
+          <i>updated</i>
+
+          : when used in rule heads, XPath filters are interpreted as specifications of
+          elements and properties which should be added to the database. The LoPiX
+          implementation provides an environment where XPathLog is complemented with
+          schema information obtained from DTDs, a class concept, data-driven Web
+          access and export functionality. Binaries of LoPiX together with a detailed
+          paper on XPathLog can be found
+
+          <a shape="rect" href="../../lopix/">here</a>
+
+          .
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="vldb01poster.ps"> [Demo Poster]</a>
+
+        </p>
+
+        <p>
+
+          Due to several enquiries, here is the
+
+          <a shape="rect" href="vldb01poster.tex">LaTeX source code</a>
+
+          (using the a0poster package from CTAN and the
+
+          <a shape="rect" href="../../dbicons/">dbicons.sty</a>
+
+          ).
+
+        </p>
+
+        <p>
+
+          A detailed description of the XPathLog language can be found in the
+
+          <reference target="may-habil-01">Habilitation Thesis</reference>
+
+          and in
+
+          <reference target="may-TPLP-04">Theory and Practice of Logic Programming,
+          2004</reference>
+
+          .
+
+          <br/>
+
+          Further documentation can be found on the
+
+          <a shape="rect" href="../../lopix/">LoPiX</a>
+
+          project homepage.
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 12 -->
+
+  <publication type="conference" bib-id="may-dagstuhl-2061-02" local-id="dagstuhl-2061-02">
+
+    <shorttitle>Talk at Dagstuhl-Seminar 2061 </shorttitle>
+
+    <conference>
+
+      <a shape="rect" href="http://www.dagstuhl.de/">Dagstuhl-Seminar</a>
+
+      <a shape="rect" href="http://www.dfki.uni-kl.de/ruleml/rmt/">"Rule Markup
+      Techniques"</a>
+
+    </conference>
+
+    <place>Schloss Dagstuhl, Germany</place>
+
+    <date>Feb. 3-8</date>
+
+    <month>2</month>
+
+    <day>3</day>
+
+    <year>2002</year>
+
+    <proceedings>Dagstuhl-Report No. 332</proceedings>
+
+    <title>Data Manipulation and Integration in XML</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <i>XPathLog</i>
+
+          is a Logic-Programming style language for XML querying, data manipulation,
+          and integration. It has been designed as a crossbreed between F-Logic (which
+          has been successfully applied to semistructured data in pre-XML times) and
+          XPath. Its main features are the extension of XPath with variable bindings
+          and the definition of a constructive semantics for XPath atoms in rule heads.
+          For updates and data integration, we favor a graph-based data model instead
+          of the XML tree model: The
+
+          <i>XTreeGraph</i>
+
+          is an extension of the XML data model that allows multiple overlapping trees
+          in a graph-like database. Result views are then defined as XML tree views
+          over this internal database.
+
+          <i>XPathLog</i>
+
+          and the
+
+          <i>XTreeGraph</i>
+
+          have been implemented in the
+
+          <a shape="rect" href="../../lopix/">
+
+            <i>LoPiX</i>
+
+          </a>
+
+          system.
+
+        </p>
+
+        <p>
+
+          <b>Post-Workshop Summary of the Talk:</b>
+
+          Due to many questions at the workshop, the talk had a second title, "From F-
+          Logic to XPathLog": In addition to the presentation of XPathLog, also its
+          development as a reconcilation between F-Logic as a "proprietary" data model
+          and language for knowledge representation and data integration, and the
+          standards of the XML world is described.
+
+        </p>
+
+        <p>
+          The XPathLog language is a Datalog-like extension of XPath for querying,
+          manipulating and integrating XML data. Based on navigation and filtering, its
+          basic, internal semantics is closely related to F-Logic. The querying part
+          extends XPath with binding variables to XML nodes that are "traversed" when
+          evaluating an XPath expression. Variables can be bound to literals, nodes,
+          and even names, allowing for metadata reasoning. The variable bindings can be
+          output as answers, or they can be communicated to the rule head for
+          specifying updates in the database. In contrast to other approaches, the
+          XPath syntax and semantics is also used for a declarative specification how
+          the database should be updated: when used in rule heads, XPath filters are
+          interpreted as specifications of elements and properties which should be
+          added to the database.
+        </p>
+
+        <p>
+          The restriction that XML uses a tree data model directly effects the
+          semantics of updates: if an update specifies that some subtree of a document
+          should be inserted also at another place, the subtree must be copied. Thus,
+          for references into this tree, it must be decided whether they point into the
+          original or into the copy; "sharing" subtrees - as in graph data models such
+          as OEM or F-Logic - is not possible. On the data integration level, when
+          restructuring trees, fusing nodes, and introducing synonyms, this problem
+          occurs even more.
+        </p>
+
+        <p>
+          Thus, as a data manipulation and integration language, XPathLog - and the
+          LoPiX implementation - internally use a graph-based, edge-labeled model,
+          called XTreeGraph. The XTreeGraph extends the basic XML data model by
+          modeling multiple overlapping trees, and thus allows for restructuring
+          existing XML trees into a densely connected graph database. XML result trees
+          are then defined as XML tree views by projections from this database.
+        </p>
+
+        <p>
+          Thus, the "pure" XPathLog language provides an intuitive Datalog-style
+          extension of XPath for querying, data manipulation, and data integration
+          which is very close to the standard syntax and semantics of XPath. Extended
+          features of the language provide a class hierarchy (including nonmonotonic
+          inheritance), a lightweight signature formalism (which is also used for
+          defining tree views from the XTreeGraph), and data-driven Web access to
+          extend the database with further XML documents. The expressiveness and
+          flexibility of the full language makes it a candidate for combined handling
+          of data, schema-metadata, and semantical metadata such as ontologies.
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          Slides:
+
+          <a shape="rect" href="Dagstuhl-Feb-2002.ps">[postscript]</a>
+
+          <a shape="rect" href="Dagstuhl-Feb-2002.pdf">[pdf]</a>
+
+        </p>
+
+        <p>
+
+          A detailed description of the XPathLog language can be found in the
+
+          <reference target="may-habil-01">Habilitation thesis</reference>
+
+          and in
+
+          <reference target="may-TPLP-03">Theory and Practice of Logic Programming,
+          2003</reference>
+
+          .
+
+          <br/>
+
+          Further documentation can be found on the
+
+          <a shape="rect" href="../../lopix/">LoPiX</a>
+
+          project homepage.
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 13 -->
+
+  <publication type="conference" bib-id="may-dexa-webs-02" local-id="dexa-webs-02">
+
+    <shorttitle> WebS'02: Linking the Semantic Web</shorttitle>
+
+    <conference short="WebS 02"> DEXA Workshop on Web Semantics
+    (WebS'02)</conference>
+
+    <place>Aix-en-Provence, France</place>
+
+    <date>Sept. 3</date>
+
+    <month>9</month>
+
+    <day>3</day>
+
+    <year>2002</year>
+
+    <proceedings>Proc. DEXA 2002 Workshop, IEEE Computer Society
+    Press</proceedings>
+
+    <page>93-97</page>
+
+    <title>Linking the Semantic Web with Existing Sources</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+        The
+
+          <i>Semantic Web</i>
+
+        aims at providing Web data sources on a semantic level. On the other hand,
+        most of the Web data itself is not suitably prepared (e.g., by annotations).
+        In this paper, we describe a semantic layer that integrates existing data
+        sources with the Semantic Web by combining semantic modeling with links that
+        associate the semantic notions with actual data on the Web. The semantic
+        level consists of specialized service providers - which can be seen as agents
+        - for each application domain. Each agent contains ontological knowledge
+        represented in XML where the links to the actual data are embedded as XPath
+        expressions, similar to XLink. The agent uses its knowledge with an internal
+        reasoning mechanism to combine the links for translating a Semantic Web query
+        into a Web query that is then evaluated against the individual sources.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="webs02talk.ps"> [Slides (postscript)]</a>
+
+        </p>
+
+        <p>
+
+          <a shape="rect" href="webs02talk.pdf"> [Slides (pdf)]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 14 -->
+
+  <publication type="conference" bib-id="may-ssd-muenchen-02" local-id="ssd-   muenchen-02">
+
+    <shorttitle>Vortrag: SSD und CL </shorttitle>
+
+    <conference>
+
+      <a shape="rect" href="http://www.cis.uni-       muenchen.de/people/Meuss/Herrsching02/">DFG-Rundgespräch "Theorie und
+      Anwendung semistrukturierter Daten im Schnittpunkt von Informatik und
+      Computerlinguistik"</a>
+
+    </conference>
+
+    <place>Herrsching/Ammersee, Germany</place>
+
+    <date>Feb. 21/22</date>
+
+    <month>2</month>
+
+    <day>21</day>
+
+    <year>2002</year>
+
+    <title>Datenmanipulation und -integration in XML</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+          XPathLog ist eine Datalog-artige Erweiterung von XPath als Anfrage-,
+          Datenmanipulations- und -integrationssprache für XML-Daten. Dabei wird XPath
+          um Variablenbindungen erweitert, bei denen die im Zuge der Auswertung eines
+          XPath-Ausdrucks durchquerten XML-Knoten etc. an Variablen gebunden werden
+          können. Dabei können Variablen sowohl an Literale und Knoten, als auch an
+          Namen gebunden werden, um Anfragen auf Daten- sowie Schemaebene stellen zu
+          können. Variablenbindungen können entweder als Antworten ausgegeben werden,
+          oder an den Regelkopf weitergegeben werden um Änderungen an der Datenbasis
+          auszuführen. Im Gegensatz zu anderen Ansätzen wird dabei XPath-Syntax und
+          Semantik auch zur deklarativen Spezifikation von Änderungen verwendet: XPath-
+          Ausdrücke im Regelkopf erhalten eine konstruktive Semantik, indem sie als
+          Beschreibung der Elemente und Attribute, die der Datenbank hinzugefügt werden
+          sollen, interpretiert werden.
+        </p>
+
+        <p>
+          Die Einschränkung, dass XML auf einem baumartigen Datenmodell basiert hat
+          dabei direkte Auswirkungen auf die Semantik von Änderungsoperationen: Wenn
+          eine Änderung spezifiziert, dass ein (durch eine Anfrage) erhaltener Teilbaum
+          einer XML-Instanz an einer bestimmten Stelle eingefügt werden soll, mu"s
+          dieser Teilbaum kopiert werden. Damit ergibt sich die Frage, ob Referenzen,
+          die in den originalen Teilbaum zeigen, angepasst werden sollen; es ist nicht
+          möglich, denselben Teilbaum ein zweites Mal einzubinden (wie in
+          graphbasierten Modellen wie z.B. OEM oder F-Logic). Wenn man
+          Datenintegrationsprobleme, wie etwa die Restrukturierung von XML-Instanzen,
+          das Verschmelzen von Knoten aus verschiedenen Bäumen, oder Synonyme
+          betrachtet, wird dieses Problem noch deutlicher.
+        </p>
+
+        <p>
+          Aus diesem Grund verwendet XPathLog - und die Implementierung in LoPiX -
+          intern ein graphbasiertes, an den Kanten markiertes Datenmodell, das als
+          XTreeGraph bezeichnet wird. Der XTreeGraph erweitert das bekannte XML-
+          Datenmodell indem mehrere überlappende Bäume modelliert werden können, und
+          somit die skizzierten Änderungs- und Integrationsoperationen unterstützt
+          werden. Zur Integration verschiedener XML-Bäume wird aus den Eingabebäumen
+          ein interner XTreeGraph erzeugt, auf dem die Ergebnisbäume durch Projektion
+          als XML-Sichten definiert werden.
+        </p>
+
+        <p>
+          Die "reine" XPathLog-Sprache bietet damit eine intuitive Datalog-artige
+          Erweiterung von XPath zu einer Anfrage-, Datenmanipulations- und -
+          integrationssprache, deren Syntax und Semantik eng an den bekannten XPath-
+          Standard anknüpft. Spracherweiterungen bieten zusätzlich eine
+          Klassenhierarchie (mit nichtmonotoner Wertvererbung), ein einfaches Konzept
+          zur Beschreibung des Datenbankschemas (der zur Definition von XML-Views über
+          dem XTreeGraph verwendet wird), sowie den Zugriff auf weitere Datenquellen im
+          Web während der Auswertung eines Programms. Die Flexibilität und
+          Ausdruckskraft der vollen XPathLog-Sprache erlaubt eine kombinierte
+          Behandlung von Daten, Schemadaten, sowie semantischen Metadaten, wie z.B.
+          Annotierungen und Ontologien.
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          Folien:
+
+          <a shape="rect" href="Munich-Feb-2002.ps">[postscript]</a>
+
+          <a shape="rect" href="Munich-Feb-2002.pdf">[pdf]</a>
+
+        </p>
+
+        <p>
+
+          A detailed description of the XPathLog language can be found in the
+
+          <reference target="may-habil-01">Habilitation thesis</reference>
+
+          and in
+
+          <reference target="may-TPLP-03">Theory and Practice of Logic Programming,
+          2003</reference>
+
+          .
+
+          <br/>
+
+          Further documentation can be found on the
+
+          <a shape="rect" href="../../lopix/">LoPiX</a>
+
+          project homepage.
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 15 -->
+
+  <publication type="journal" bib-id="may-ludaescher-TODS-02" local-id="tods02">
+
+    <shorttitle> TODS: Referential Integrity</shorttitle>
+
+    <journal>ACM Transactions on Database Systems (TODS)</journal>
+
+    <number>27</number>
+
+    <volume>4</volume>
+
+    <page>343-397</page>
+
+    <date>December</date>
+
+    <year>2002</year>
+
+    <month>12</month>
+
+    <title>Understanding the Global Semantics of Referential Actions using Logic
+    Rules</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+      <author>Bertram Ludäscher</author>
+
+    </authors>
+
+    <project>Referential Integrity</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          Referential actions are specialized triggers for automatically maintaining
+          referential integrity in databases. While the
+
+          <em>local effects</em>
+
+          of referential actions can be grasped easily, it is far from obvious what the
+
+          <em>global semantics</em>
+
+          of a set of interacting referential actions should be. In particular, when
+          using procedural execution models, ambiguities due to the execution ordering
+          can occur. No
+
+          <em>global, declarative</em>
+
+          semantics of referential actions has been defined yet.
+
+        </p>
+
+        <p>
+
+          We show that the well-known logic programming semantics provide a natural
+
+          <em>global</em>
+
+          semantics of referential actions that is based on their
+
+          <em>local</em>
+
+          characterization: To capture the global meaning of a set
+
+          <i>RA</i>
+
+          of referential actions, we first define their abstract (but non-constructive)
+
+          <em>intended semantics</em>
+
+          . Next, we
+
+          <em>formalize</em>
+
+          <i>RA</i>
+
+          as a
+
+          <em>logic program</em>
+
+          <i>
+
+          P
+
+            <sub>RA</sub>
+
+          </i>
+
+          . The declarative, logic programming semantics of
+
+          <i>
+
+          P
+
+            <sub>RA</sub>
+
+          </i>
+
+          then provide the constructive,
+
+          <em>global</em>
+
+          semantics of the referential actions. So, we do not
+
+          <em>define</em>
+
+          a semantics for referential actions, but we show that there
+
+          <em>exists</em>
+
+          a unique
+
+          <em>natural</em>
+
+          semantics if one is ready to accept (i) the intuitive local semantics of
+          local referential actions, (ii) the formalization of those and of the local
+          "effect-propagating" rules, and (iii) the well-founded or stable model
+          semantics from logic programming as "reasonable" global semantics for local
+          rules.
+
+        </p>
+
+        <p>
+
+          We first focus on the subset of referential actions for deletions only. We
+          prove the equivalence of the logic programming semantics and the abstract
+          semantics via a game-theoretic characterization, which provides additional
+          insight into the meaning of interacting referential actions. In this case a
+
+          <em>unique maximal admissible solution exists</em>
+
+          , computable by a PTIME algorithm.
+
+        </p>
+
+        <p>
+
+          Second, we investigate the general case, i.e. including modifications. We
+          show that in this case there can be
+
+          <em>multiple maximal admissible subsets</em>
+
+          and that all maximal admissible subsets can be characterized as
+
+          <em>3-valued stable models</em>
+
+          of
+
+          <i>
+
+          P
+
+            <sub>RA</sub>
+
+          </i>
+
+          . We show that for a given set of user requests, in presence of referential
+          actions of the form
+
+          <tt>ON UPDATE CASCADE</tt>
+
+          , the admissibility check and the computation of the subsequent database
+          state, and (for non-admissible updates) the derivation of debugging hints all
+          are in PTIME. Thus, full referential actions can be implemented efficiently.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> The paper is based on previous publications and reports: </p>
+
+        <ul>
+
+          <li>
+
+            <reference target="ludaescher-may-EDBT-98"> Referential Actions: From Logical
+            Semantics to Implementation</reference>
+
+            , Bertram Ludäscher, Wolfgang May, EDBT'98 (6th Intl. Conference on Extending
+            Database Technology),
+
+          </li>
+
+          <li>
+
+            <reference target="ludaescher-may-lausen-PODS-97"> Referential Actions as
+            Logic Rules</reference>
+
+            , Bertram Ludäscher, Wolfgang May, Georg Lausen, Proc. of 16th ACM Symposium
+            on Principles of Database Systems (PODS'97).
+
+          </li>
+
+          <li>
+
+            <reference target="ludaescher-may-reinert-IWS-96"> Towards a Logical
+            Semantics for Referential Actions in SQL</reference>
+
+            , Bertram Ludäscher, Wolfgang May, Joachim Reinert, Proc. 6th Intl. Workshop
+            on Foundations of Models and Languages for Data and Objects: Integrity in
+            Databases, Dagstuhl, Germany, 1996.
+
+          </li>
+
+        </ul>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 16 -->
+
+  <publication type="conference" bib-id="may-www-02" local-id="www02">
+
+    <shorttitle>WWW'02: Querying Linked XML Document Networks</shorttitle>
+
+    <conference short="WWW 2002">11th International World Wide Web Conference
+    (WWW 2002)</conference>
+
+    <place>Honolulu, Hawaii</place>
+
+    <date>May, 7-11</date>
+
+    <month>5</month>
+
+    <day>7</day>
+
+    <year>2002</year>
+
+    <proceedings>
+
+      <a shape="rect" href="http://www2002.org/CDROM/alternate/166/">CDROM/online
+    at http://www2002.org/CDROM/alternate/166/</a>
+
+    </proceedings>
+
+    <title>Querying Linked XML Document Networks in the Web</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+    The W3C XML Linking Language (XLink) provides a powerful means for
+    interlinking XML documents all over the world. From the database (and in
+    general, querying) point of view, elements with linking semantics as
+    specified by XLink can be seen as embedded views in an XML instance. Compared
+    with classical databases, i.e., SQL and relational data, the situation of
+    having links
+
+          <i>inside</i>
+
+    the data is new, raising new aspects for query languages: for using such
+    documents, strategies how to handle links are required. There is not yet an
+    official proposal on the interaction of interlinked XML documents using the
+    XLink language and navigation/querying. We investigate a model where
+    interlinked documents are regarded as
+
+          <i>virtual</i>
+
+    XML subtrees, i.e.,
+
+          <i>XML views</i>
+
+    . Several strategies are presented how to handle such subtrees, concerning
+    the timepoint when the link is evaluated, and the evaluation and caching
+    strategies. The evaluation strategies are influenced by capabilities of the
+    linked XML servers. So far, the approach is independent from the actual
+    querying language. The approach is under implementation as an extension of
+
+          <a shape="rect" href="../../lopix/">LoPiX</a>
+
+    , a web-aware system for XML data manipulation.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="www02talk.ps"> [Slides (postscript)]</a>
+
+        </p>
+
+        <p>
+
+          <a shape="rect" href="www02talk.pdf"> [Slides (pdf)]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 16 -->
+
+  <publication type="conference" bib-id="malheiro-may-btw-03" local-id="btw03">
+
+    <shorttitle>BTW 2003</shorttitle>
+
+    <conference short="BTW 03">
+
+      <a shape="rect" href="http://www.btw2003.de/">GI-Fachtagung Datenbanksysteme
+  für Business, Technologie und Web (BTW 2003)</a>
+
+    </conference>
+
+    <place>Leipzig, Germany</place>
+
+    <date>February 26-28</date>
+
+    <year>2003</year>
+
+    <month>2</month>
+
+    <day>26</day>
+
+    <title>A Logical, Transparent Model for Querying Linked XML Documents</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+      <author>Dimitrio Malheiro</author>
+
+    </authors>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+  The W3C XML Linking Language (XLink) provides a powerful means for
+  interlinking XML documents all over the world. While the effects when
+  browsing through linked XML documents are well-defined, there is not yet any
+  proposal how to handle interlinked XML documents that make use of the XLink
+  language from the database point of view, i.e., considering the data model
+  and navigation/querying aspects. From the database (and in general, querying)
+  point of view, elements with linking semantics can be seen as
+
+          <em>virtual</em>
+
+  XML subtrees, i.e.,
+
+          <em>XML views</em>
+
+  . Compared with classical databases, i.e., SQL and relational data, the
+  situation of having links
+
+          <em>inside</em>
+
+  the data is new. We define a
+
+          <em>logical, transparent</em>
+
+  data model for linked documents. Queries are then formulated in standard
+  XPath against the logical model. We propose additional attributes using the
+
+          <tt>dbxlink</tt>
+
+  (database-xlink) namespace for specifying the mapping from XLinks to the
+  logical model.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="btw03talk.ps"> [Slides (postscript)]</a>
+
+          <br/>
+
+          <a shape="rect" href="btw03talk.pdf"> [Slides (pdf)]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 17 -->
+
+  <publication type="conference" bib-id="may-colognet-03" local-id="colognet03">
+
+    <shorttitle>BTW 2003</shorttitle>
+
+    <conference>
+
+      <a shape="rect" href="http://haendel.kr.tuwien.ac.at/colognet_ws/"> CoLogNET
+  Workshop on Logic-based Methods for Information Integration</a>
+
+    </conference>
+
+    <place>Vienna, Austria</place>
+
+    <date>August 23</date>
+
+    <year>2003</year>
+
+    <month>8</month>
+
+    <day>23</day>
+
+    <title>A Logic-Based Approach to XML Data Integration with "lazy
+  materialization"</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> XPathLog is a Datalog-like extension of XPath for querying, manipulating
+  and integrating XML data. The querying part extends XPath with binding
+  variables to XML nodes that are "traversed" when evaluating an XPath
+  expression. In contrast to other approaches, the XPath syntax and semantics
+  is also used for a declarative specification how the database should be
+  updated: when used in rule heads, XPath filters are interpreted as
+  specifications of elements and properties which should be added to the
+  database. Special operations for data integration include additional cross
+  links (subelement relationship and attributes) between fragments of the
+  original database, declaring synonym relationships between notions from
+  different sources, and XML element fusion. </p>
+
+        <p> As a data manipulation and integration language, XPathLog is originally
+  based on a graph-based, edge-labeled model, called XTreeGraph. The XTreeGraph
+  extends the basic XML data model by modeling multiple overlapping trees, and
+  thus allows for restructuring existing XML trees into a densely connected
+  graph database. XML result trees are then defined as XML tree views by
+  projections from this database. The LoPiX implementation follows a "warehouse
+  approach" where the integrated XTreeGraph is materialized. </p>
+
+        <p> In the present talk, a "lazy materialization" strategy is proposed that
+  does not materialize the complete internal database, and that is based on the
+  original XML tree model combined with XLink: Data items that are not (yet)
+  changed are integrated into the internal database as references, represented
+  by XLinks. The approach uses our recent proposal for a logical, transparent
+  data model for XLinked data. Only if a referenced data item is actually
+  modified in course of the integration process, it is (partially) loaded into
+  the database; unchanged fragments of it still being represented in a lazy way
+  by XLinks. </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="vienna-xlink-integra-aug-03.ps">[Slides
+  (postscript)]</a>
+
+          <br/>
+
+          <a shape="rect" href="vienna-xlink-integra-aug-03.pdf">[Slides (pdf)]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <publication type="journal" bib-id="may-dbspektrum-03" local-id="dbspektrum03">
+
+    <shorttitle>DB-Spektrum 2003: Datenintegration</shorttitle>
+
+    <journal>Datenbank-Spektrum</journal>
+
+    <number>6</number>
+
+    <volume>3</volume>
+
+    <page>23-32</page>
+
+    <date>June</date>
+
+    <year>2003</year>
+
+    <month>6</month>
+
+    <title>Datenintegration in XML - ein regelbasierter Ansatz</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+  Dieser Beitrag beschreibt die Erfahrungen, die im Rahmen des
+
+          <a shape="rect" href="../../lopix/">LoPiX-Projektes</a>
+
+  bei der Integration von XML-Daten gemacht wurden. Die in diesem System
+  verwendete Sprache
+
+          <em>XPathLog</em>
+
+  ist eine Datalog-artige Erweiterung von XPath, die es erlaubt, Änderungen an
+  der Datenbank in dieser erweiterten XPath-Syntax zu spezifizieren. Da solche
+  Änderungen - speziell im Zuge der Datenintegration, wie z.B. die
+  Restrukturierung von Datenbeständen, Verschmelzung von Knoten, und Einführung
+  von Synonymen - auf dem XML-Datenmodell nicht möglich sind, basiert LoPiX auf
+  dem
+
+          <em>XTreeGraph</em>
+
+  -Datenmodell, das nicht nur eine, sondern mehrere überlappende XML-
+  Baumstrukturen verwalten kann. Als Ergebnis können dann XML-Bäume als
+  Projektionen dieses Graphen (z.B. durch DTDs) erzeugt werden.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+  </publication>
+
+  <!-- Publication 18 -->
+
+  <publication type="bookchapter" bib-id="lausen-may-webdb-book-03" local-id="webdb-book-03">
+
+    <shorttitle> Anfragen, Ändern und Publizieren von XML</shorttitle>
+
+    <book short="webdb03">
+
+      <a shape="rect" href="http://www.dpunkt.de/buch/3-89864-189-9.html">Web &amp;
+  Datenbanken</a>
+
+  (
+
+      <a shape="rect" href="http://dbs.uni-   leipzig.de/webdb/kapitel.html">Kapitelübersicht</a>
+
+  )
+
+    </book>
+
+    <editor>Erhard Rahm und Gottfried Vossen, editors</editor>
+
+    <publisher>dpunkt-Verlag</publisher>
+
+    <isbn>ISBN 3-89864-189-9</isbn>
+
+    <page>65-100</page>
+
+    <date>January</date>
+
+    <year>2003</year>
+
+    <month>1</month>
+
+    <title>Anfragen, Ändern und Publizieren von XML</title>
+
+    <authors>
+
+      <author>Georg Lausen</author>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>XML</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> Dieses Kapitel hat Anfragesprachen, Datenmanipulation und -transformation
+  von XML-Daten zum Inhalt. Dabei wird sowohl die Entwicklung der Konzepte
+  beschrieben, als auch eine Einführung in die gegenwärtig populärsten
+  Sprachen, XPath und XQuery, gegeben. XML-Anfragesprachen gehen zurück auf die
+  frühen XSL Patterns und XQL, aus denen sich XPath als
+  Adressierungsformalismus entwickelte, der die Grundlage für mächtigere
+  Sprachen zu XML bildet. In diesem Kapitel werden die Anfragesprachen XML-QL,
+  sowie das auf XPath basierende Quilt, aus dem dann XQuery hervorging,
+  beschrieben. Mittlerweile wurden zu diesen bis dahin reinen Anfragesprachen
+  auch Konzepte zur Datenmanipulation vorgeschlagen, die als Spracherweiterung
+  zu XQuery auch bereits implementiert sind. Weiterhin wird in diesem Kapitel
+  die Transformation von XML-Daten beschrieben, die letztlich eine Grundlage
+  für die Präsentation in HTML ist. </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+  </publication>
+
+  <!-- Publication 19  -->
+
+  <publication type="journal" bib-id="lausen-may-IS-04" local-id="IS04">
+
+    <shorttitle>IS 2004: Information Integration</shorttitle>
+
+    <journal>Information Systems </journal>
+
+    <number>29</number>
+
+    <volume>1</volume>
+
+    <page>59-91</page>
+
+    <date>January</date>
+
+    <year>2004</year>
+
+    <month>1</month>
+
+    <title>A Uniform Framework for Integration of Information from the
+  Web</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+      <author>Georg Lausen</author>
+
+    </authors>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+  We discuss a system that implements an integrated framework for Web
+  exploration, wrapping, data integration, and querying. Here, the
+  "integration" applies in three aspects: the data model and the functionality,
+  and the architecture. The core of the approach is a unified framework - i.e.,
+  data model and language - in which all tasks are performed. We regard the Web
+  and its contents as a unit, represented in a semi-structured, object-oriented
+  data model: the Web structure, given by its hyperlinks, the parse-trees of
+  Web pages, and its contents are all included in the internal world model of
+  the system. Additionally, the application-level model is immediately
+  generated as an overlay of this source-level model. The model is complemented
+  by a rule-based object-oriented language which is extended by Web accessing
+  capabilities and structured document analysis. This language is implemented
+  by a central reasoning engine. The advantage of our unified approach is that
+  the same data manipulation and query language can be used for all tasks,
+  i.e., accessing Web pages, wrapping, data integration, and querying
+  information. Thus, these tasks are not necessarily separated, but can be
+  closely intertwined. Additionally, by reusing the source-level model for
+  generating the application-level model, there is no overhead for
+  communication and mapping between different data formats. In particular, we
+  present a methodology for reusing generic rule patterns for typical
+  extraction, integration, and restructuring tasks. In an abstract sense, the
+  system contains a universal wrapper, which can be applied to arbitrary Web
+  pages that the system considers during information processing. Equipped with
+  suitably intelligent rules, the system can potentially explore initially
+  unknown parts of the Web, thus coping with the steady growth of the Web. We
+  show the practicability of our approach by using the
+
+          <a shape="rect" href="http://www.informatik.uni-   freiburg.de/~dbis/florid">FLORID</a>
+
+  system.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+  </publication>
+
+  <!-- Publication 20 -->
+
+  <publication type="journal" bib-id="may-TPLP-04" local-id="TPLP04">
+
+    <shorttitle>TPLP 2004: XPathLog</shorttitle>
+
+    <journal>Theory and Practice of Logic Programming</journal>
+
+    <number>4</number>
+
+    <volume>3</volume>
+
+    <page>499-526</page>
+
+    <date>December</date>
+
+    <year>2004</year>
+
+    <month>12</month>
+
+    <title>XPath-Logic and XPathLog: A Logic-Programming Style XML Data
+  Manipulation Language</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> We define XPathLog as a Datalog-style extension of XPath. XPathLog
+  provides a clear, declarative language for querying and manipulating XML
+  whose perspectives are especially in XML data integration. </p>
+
+        <p>
+
+  In our characterization, the formal semantics is defined wrt. an
+
+          <em>edge-labeled graph-based</em>
+
+  model which covers the XML data model. We give a complete, logic-based
+  characterization of XML data and the main language concept for XML, XPath.
+  XPath-Logic extends the XPath language with variable bindings and embeds it
+  into first-order logic. XPathLog is then the Horn fragment of XPath-Logic,
+  providing a Datalog-style, rule-based language for querying and manipulating
+  XML data. The model-theoretic semantics of XPath-Logic serves as the base of
+  XPathLog as a logic-programming language, whereas also an equivalent answer-
+  set semantics for evaluating XPathLog queries is given. In contrast to other
+  approaches, the XPath syntax and semantics is also used for a declarative
+  specification how the database should be
+
+          <em>updated</em>
+
+  : when used in rule heads, XPath filters are interpreted as specifications of
+  elements and properties which should be added to the database.
+
+        </p>
+
+        <p>
+
+  The paper is available online at
+
+          <a shape="rect" href="http://arxiv.org/abs/cs.DB/0311038">arXiv.org</a>
+
+  .
+
+        </p>
+
+        <p>
+
+  The paper is an excerpt of the Habilitation Thesis
+
+          <reference target="may-habil-01">A Logic-Based Approach to XML Data
+  Integration</reference>
+
+  (2001).
+
+          <br/>
+
+  XPathLog has been implemented in the
+
+          <a shape="rect" href="../../lopix">LoPiX</a>
+
+  project.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> Preliminary results have been presented in </p>
+
+        <ul>
+
+          <li>
+
+            <reference target="may-vldb01demo-01">Intl. Conf. on Very Large Databases
+  (VLDB) 2001</reference>
+
+  - Demonstration Track,
+
+          </li>
+
+          <li>
+
+            <reference target="may-DBPL-01">Workshop on Databases and Programming
+  Languages (DBPL 2001)</reference>
+
+  ,
+
+          </li>
+
+          <li>
+
+            <reference target="may-behrends-fmldo-01">Workshop on Foundations of Models
+  and Languages for Data and Objects (FMLDO 2001)</reference>
+
+  ,
+
+          </li>
+
+        </ul>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 21 -->
+
+  <publication type="thesis" bib-id="may-dipl-95">
+
+    <shorttitle>W.May: Diploma Thesis</shorttitle>
+
+    <thesis>Diploma Thesis</thesis>
+
+    <institute>Fakultät für Informatik</institute>
+
+    <university>Universität Karlsruhe</university>
+
+    <date>February</date>
+
+    <year>1995</year>
+
+    <month>2</month>
+
+    <title> Protokollverifikation in Temporallogik: Evolving Algebras und ein
+  Tableaukalkül</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>Dynamics</project>
+
+    <project>Formal Methods</project>
+
+    <project>Temporal Logics</project>
+
+    <linkto>http://user.informatik.uni-goettingen.de/~may/Diplom/</linkto>
+
+  </publication>
+
+  <publication type="conference" bib-id="may-schmitt-fapr-96" local-id="fapr96">
+
+    <shorttitle>Abstract FAPR'96</shorttitle>
+
+    <conference short="fapr 96">International Conference on Formal and Applied
+  Practical Reasoning (FAPR'96)</conference>
+
+    <place>Bonn, Germany</place>
+
+    <date>June 3-7</date>
+
+    <year>1996</year>
+
+    <month>6</month>
+
+    <day>3</day>
+
+    <proceedings>LNCS 1085, Springer</proceedings>
+
+    <page>399-413</page>
+
+    <title>A Tableau Calculus For First-Order Branching Time Logic</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+      <author>Peter H. Schmitt</author>
+
+    </authors>
+
+    <project>Temporal Logic</project>
+
+    <project>Dynamics</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+  Tableau-based proof systems have been designed for many logics extending
+  classical first-order logic. This paper proposes a sound tableau calculus for
+  temporal logics of the first-order CTL-family. Until now, a tableau calculus
+  has only been presented for the propositional version of CTL. The calculus
+  considered operates with prefixed formulas and may be regarded as an instance
+  of a labelled deductive system. The prefixes allow an explicit partial
+  description of states and paths of a potential Kripke counter model in the
+  tableau. It is possible in particular to represent path segments of finite
+  but arbitrary length which are needed to process reachability formulas.
+  Furthermore, we show that by using prefixed formulas and explicit
+  representation of paths it becomes possible to express and process fairness
+  properties without having to resort to full CTL
+
+          <sup>*</sup>
+
+  . The approach is suitable for use in interactive proof-systems.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="fapr96.ps.gz"> [PS-File]</a>
+
+          <br/>
+
+          <a shape="rect" href="fapr96sl.ps.gz"> [Slides]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 21 -->
+
+  <publication type="conference" bib-id="ludaescher-may-reinert-IWS-96" local-id="iws96">
+
+    <shorttitle>IWS: Referential Integrity</shorttitle>
+
+    <conference short="LID96"> 6th Intl. Workshop on Foundations of Models and
+  Languages for Data and Objects (FMLDO'96)</conference>
+
+    <place>Dagstuhl, Germany</place>
+
+    <date>September 16-20</date>
+
+    <year>1996</year>
+
+    <month>9</month>
+
+    <day>16</day>
+
+    <proceedings>Proceedings: University of Magdeburg, Faculty of Computer
+  Science, Preprint No. 4, 1996</proceedings>
+
+    <page>57-72</page>
+
+    <title>Towards a Logical Semantics for Referential Actions in SQL</title>
+
+    <authors>
+
+      <author>Bertram Ludäscher</author>
+
+      <author>Wolfgang May</author>
+
+      <author>Joachim Reinert</author>
+
+    </authors>
+
+    <project>Referential Integrity</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+  We investigate a logical semantics which unambiguously specifies the meaning
+  of SQL-like referential actions of the form ON DELETE CASCADE and ON DELETE
+  RESTRICT. The semantics is given by a translation of referential actions into
+  logical rules. The proposed semantics is less restrictive than the standard
+  SQL semantics, yet preserves all referential integrity constraints. First, a
+  preliminary set of rules is introduced which rejects a set of user requests
+  if a single request is rejected. Subsequently, a refined translation is
+  presented using
+
+          <i>Statelog</i>
+
+  , a state-oriented Datalog extension which allows to define active and
+  deductive rules within a unified framework. We show that our semantics yields
+  the maximal admissible subset of a given set of user requests. Apart from the
+  Statelog formalization, a three-valued formalization based on the well-
+  founded semantics and an equivalent game-theoretic specification are
+  presented, which give further insight into the problem of ambiguity of
+  triggers.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="iws96.ps.gz"> [PS-File]</a>
+
+          <br/>
+
+          <a shape="rect" href="iws96-slides.ps.gz"> [Slides of the talk]</a>
+
+        </p>
+
+        <p>
+
+  Followup papers have been published in
+
+          <reference target="ludaescher-may-lausen-PODS-97">PODS 1997</reference>
+
+  and
+
+          <reference target="may-ludaescher-TODS-02">TODS 27(4), 2002</reference>
+
+  .
+
+          <br/>
+
+  An extended version containing these results can be found in
+
+          <reference target="may-ludaescher-TODS-02">Understanding the Global Semantics
+  of Referential Actions using Logic Rules</reference>
+
+  , Wolfgang May, Bertram Ludäscher, ACM Transactions on Database Systems
+  (TODS), 27(4), 2002.
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 22 -->
+
+  <publication type="conference" bib-id="ludaescher-may-lausen-lid-96" local-id="lid96">
+
+    <shorttitle>LID: Nested Transactions</shorttitle>
+
+    <conference short="LID96"> Intl. Workshop on Logic in Databases
+  (LID'96)</conference>
+
+    <place>San Miniato, Italy</place>
+
+    <date>July 1-3</date>
+
+    <year>1996</year>
+
+    <month>7</month>
+
+    <day>1</day>
+
+    <proceedings>LNCS 1154, Springer</proceedings>
+
+    <page>197-222</page>
+
+    <title>Nested Transactions in a Logical Language for Active Rules</title>
+
+    <authors>
+
+      <author>Bertram Ludäscher</author>
+
+      <author>Wolfgang May</author>
+
+      <author>Georg Lausen</author>
+
+    </authors>
+
+    <project>Statelog</project>
+
+    <project>Logic Programming</project>
+
+    <project>Active Databases</project>
+
+    <project>Dynamics</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+  We present a hierarchically structured transaction-oriented concept for a
+  rule-based active database system. In previous work, we have proposed
+
+          <i>Statelog</i>
+
+  as a unified framework for active and deductive rules. Following the need for
+  better structuring capabilities, we introduce
+
+          <i>procedures</i>
+
+  as a means to group semantically related rules and to encapsulate their
+  behavior. In addition to executing elementary updates, procedures can be
+  called, thereby defining (sub)transactions which may perform complex
+  computations. A Statelog procedure is a set of ECA-style Datalog rules
+  together with an import/export interface. System-immanent frame and procedure
+  rules ensure both propagation of facts and processing of results of committed
+  subtransactions. Thus, Statelog programs specify a nested transaction model
+  which allows a much more structured and natural modeling of complex
+  transactions than previous approaches. Two equivalent semantics for a
+  Statelog program
+
+          <i>P</i>
+
+  are given: (i) a logic programming style semantics by a compilation into a
+  logic program, and (ii) a model-theoretic Kripke-style semantics. While (ii)
+  serves as a
+
+          <i>conceptual</i>
+
+  model of active rule behavior and allows to reason about properties of the
+  specified transactions, (i) -- together with the appropriate execution model
+  -- yields an operational semantics and can be used as an implementation of
+
+          <i>P</i>
+
+  .
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="lid96.ps.gz"> [PS-File]</a>
+
+          <br/>
+
+          <a shape="rect" href="lid96-slides.ps.gz"> [Slides of the talk]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 23 -->
+
+  <publication type="conference" bib-id="may-ludaescher-lausen-dood-wfs-   97" local-id="dood97-wfs">
+
+    <shorttitle>Abstract DOOD'97</shorttitle>
+
+    <conference short="dood-wfs 97">5th Intl. Conf. on Deductive and Object-
+  Oriented Databases (DOOD'97)</conference>
+
+    <place>Montreux, Switzerland</place>
+
+    <date>December 8-12</date>
+
+    <year>1997</year>
+
+    <month>12</month>
+
+    <day>8</day>
+
+    <proceedings>LNCS 1341, Springer</proceedings>
+
+    <page>320-336</page>
+
+    <title>Well-Founded Semantics for Deductive Object-Oriented Database
+  Languages </title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+      <author>Bertram Ludäscher</author>
+
+      <author>Georg Lausen</author>
+
+    </authors>
+
+    <project>Well-Founded</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+  We present a well-founded semantics for deductive object-oriented database
+  languages by applying the alternating-fixpoint characterization of the well-
+  founded model to them. In order to compute the state sequence, states are
+  explicitely integrated by making them first-class citizens of the underlying
+  language. The concept is applied to
+
+          <i>Florid</i>
+
+  , an implementation of
+
+          <i> F-Logic</i>
+
+  , previously supporting only inflationary negation. Using our approach, well-
+  founded models of F-Logic programs can be computed. The method is also
+  applicable to arbitrary languages which provide a sufficiently flexible
+  syntax and semantics. Given an implementation of the underlying database
+  language, any program given in this language can be evaluated wrt. the well-
+  founded semantics.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="dood97-wfs.ps.gz"> [PS-File]</a>
+
+          <br/>
+
+          <a shape="rect" href="dood97sl.ps.gz"> [Extended set of slides]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 24 -->
+
+  <publication type="conference" bib-id="may-fapr-97" local-id="fapr97">
+
+    <shorttitle>Abstract FAPR'97</shorttitle>
+
+    <conference short="fapr 97">International Joint Conference on Qualitative and
+  Quantitative Practical Reasoning (ECSQARU/FAPR '97)</conference>
+
+    <place>Bad Honnef, Germany</place>
+
+    <date>June 9-12</date>
+
+    <year>1997</year>
+
+    <month>6</month>
+
+    <day>9</day>
+
+    <proceedings>LNCS 1244, Springer</proceedings>
+
+    <page>436-450</page>
+
+    <title>Process Modeling with Different Qualities of Knowledge</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>Knowledge Modeling</project>
+
+    <project>Dynamics</project>
+
+    <project>Formal Methods</project>
+
+    <project>Temporal Logics</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> For modeling structured processes with different levels of atomic
+  actions, classical linear or branching time Kripke structures with first-
+  order states are insufficient: They do not provide any means for modeling
+  independent parallel threads of activity which have to be joined at some
+  point, action refinement, or procedure concepts. In all three cases, it is
+  important to distinguish facts resp. knowledge derived in the current thread
+  of activity from facts which are not concerned in this activity. This problem
+  is also closely related to the frame problem. </p>
+
+        <p> In this paper, hierarchical Kripke structures are introduced for modeling
+  hierarchically structured processes, also coping with the different qualities
+  of knowledge arising in this context: every state consists of a total first-
+  order interpretation, which gives the state as-is, and a partial first-order
+  interpretation containing all procedure knowledge which has been derived in
+  the current thread of activity. </p>
+
+        <p> A correct and complete set of axioms is presented for reasoning about
+  hierarchical Kripke structures. </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="fapr97.ps.gz"> [PS-File]</a>
+
+          <br/>
+
+          <a shape="rect" href="fapr97sl.ps.gz"> [Slides]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 25 -->
+
+  <publication type="conference" bib-id="ludaescher-may-lausen-PODS-97" local-id="pods97">
+
+    <shorttitle> PODS: Referential Integrity</shorttitle>
+
+    <conference short="PODS 97">16th. ACM Symposium on Principles of Database
+  Systems (PODS 97)</conference>
+
+    <place>Tucson, Arizona, USA</place>
+
+    <date>May 12-14</date>
+
+    <year>1997</year>
+
+    <month>5</month>
+
+    <day>12</day>
+
+    <proceedings>ACM Press</proceedings>
+
+    <page>217-224</page>
+
+    <title>Referential Actions as Logical Rules</title>
+
+    <authors>
+
+      <author>Bertram Ludäscher</author>
+
+      <author>Wolfgang May</author>
+
+      <author>Georg Lausen</author>
+
+    </authors>
+
+    <project>Referential Integrity</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+  Referential actions are specialized triggers used to automatically maintain
+  referential integrity. While their local behavior can be grasped easily, it
+  is far from clear what the combined effect of a set of referential actions,
+  i.e., their global semantics should be. For example, different execution
+  orders may lead to ambiguities in determining the final set of updates to be
+  applied. To resolve these problems, we propose an abstract logical framework
+  for rule-based maintenance of referential integrity: First, we identify
+  desirable abstract properties like
+
+          <i>admissibility</i>
+
+  of updates which lead to a non-constructive global semantics of referential
+  actions. We obtain a constructive definition by formalizing a set of
+  referential actions
+
+          <i>RA</i>
+
+  as logical rules, and show that the declarative semantics of the resulting
+  logic program
+
+          <i>
+
+  P
+
+            <sub>RA</sub>
+
+          </i>
+
+  captures the intended abstract semantics: The well-founded model of
+
+          <i>
+
+  P
+
+            <sub>RA</sub>
+
+          </i>
+
+  yields a unique set of updates, which is a safe, sceptical approximation of
+  the set of all maximal admissible updates; the third truth-value
+
+          <i>undefined</i>
+
+  is assigned to all controversial updates. Finally, we show how to obtain a
+  characterization of all maximal admissible subsets of a given set of updates
+  using certain maximal stable models.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="pods97.ps.gz"> [PS-File]</a>
+
+          <br/>
+
+          <a shape="rect" href="pods97-foiles.ps.gz"> [Slides of the talk]</a>
+
+        </p>
+
+        <p> An extended version can be found in </p>
+
+        <ul>
+
+          <li>
+
+            <reference target="may-ludaescher-TODS-02">Understanding the Global Semantics
+  of Referential Actions using Logic Rules</reference>
+
+  , Wolfgang May, Bertram Ludäscher, ACM Transactions on Database Systems
+  (TODS), 27(4), 2002.
+
+          </li>
+
+        </ul>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 26 -->
+
+  <publication type="conference" bib-id="may-schlepphorst-lausen-rids-   97" local-id="rids97">
+
+    <shorttitle>Abstract RIDS'97</shorttitle>
+
+    <conference short="rids 97">3rd International Workshop on Rules in Database
+  Systems (RIDS'97)</conference>
+
+    <place>Skövde, Sweden</place>
+
+    <date>June 26-28</date>
+
+    <year>1997</year>
+
+    <month>6</month>
+
+    <day>26</day>
+
+    <proceedings>LNCS 1312, Springer</proceedings>
+
+    <page>20-34</page>
+
+    <title>Integrating Dynamic Aspects into Deductive Object-Oriented
+  Databases </title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+      <author>Christian Schlepphorst</author>
+
+      <author>Georg Lausen</author>
+
+    </authors>
+
+    <project>Dynamics</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+  We show how the dynamics of database systems can be modeled by making states
+  first-class citizens in an object-oriented deductive database language. With
+  states at the same time acting as objects, methods, or classes, several
+  concepts of dynamic entities can be implemented, allowing an intuitive,
+  declarative modeling of the application domain. Exploiting the natural
+  stratification induced by the state sequence, the approach also provides an
+  implementable operational semantics. The method is applicable to arbitrary
+  object-oriented deductive database languages which provide a sufficiently
+  flexible syntax and semantics. Provided an implementation of the underlying
+  database language, any system specification in the presented framework is
+  directly executable, thus unifying specification, implementation, and
+  metalanguage for proving properties of a system. The concept is applied to F-
+  Logic. Besides the declarative semantics given by the rules of a State-F-
+  Logic program, the use of F-Logic's inheritance semantics for modeling states
+  provides an effective operational semantics exploiting the naturally given
+  state-stratification. State-F-Logic programs can be executed using the
+
+          <a shape="rect" href="http://www.informatik.uni-   freiburg.de/~dbis/florid">Florid</a>
+
+  implementation.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="rids97.ps.gz"> [PS-File]</a>
+
+          <br/>
+
+          <a shape="rect" href="rids97sl.ps.gz"> [Slides]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 27 -->
+
+  <publication type="conference" bib-id="may-tab-97" local-id="tab97">
+
+    <shorttitle>Abstract TABLEAUX'97</shorttitle>
+
+    <conference short="tab 97">International Conference on Analytic Tableaux and
+  Related Methods (TABLEAUX'97)</conference>
+
+    <place>Pont-à-Mousson, France</place>
+
+    <date>May 13-16</date>
+
+    <year>1997</year>
+
+    <month>5</month>
+
+    <day>13</day>
+
+    <proceedings>LNCS 1227, Springer</proceedings>
+
+    <page>261-275</page>
+
+    <title>Proving Correctness of Labeled Transition Systems by Semantic
+  Tableaux </title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>Temporal Logics</project>
+
+    <project>Dynamics</project>
+
+    <project>Formal Methods</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> The paper presents a method for formally proving correctness of processes
+  specified by transition systems which is based on a tableau calculus for an
+  extended temporal logic. The model-theoretic semantics is given by labeled
+  Kripke structures, incorporating information about the actions performed in
+  transitions. Extending first-order CTL for handling action labels, the multi-
+  modal logic MCTL is defined which is well-suited for specifying transition
+  systems and their properties. For MCTL, a tableau semantics and -calulus is
+  presented, allowing formal verification. </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="tab97.ps.gz"> [PS-File]</a>
+
+          <br/>
+
+          <a shape="rect" href="tab97sl.ps.gz"> [Slides]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <publication type="conference" bib-id="may-tapsoft-97" local-id="tapsoft97">
+
+    <shorttitle>Abstract TAPSOFT'97</shorttitle>
+
+    <conference short="tapsoft 97">7th International Joint Conference on the
+  Theory and Practice of Software Development (TAPSOFT'97)</conference>
+
+    <place>Lille, France</place>
+
+    <date>April 14-18</date>
+
+    <year>1997</year>
+
+    <month>4</month>
+
+    <day>14</day>
+
+    <proceedings>LNCS 1214, Springer</proceedings>
+
+    <page>535-549</page>
+
+    <title>Specifying Complex and Structured Systems with Evolving
+  Algebras </title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>Formal Methods</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+  This paper presents an approach for specifying complex, structured systems
+  with Evolving Algebras by means of aggregation and composition. Evolving
+  algebras provide a formal method for
+
+          <i>executable</i>
+
+  specifications which has been employed for specifying several algorithms and
+  programming languages. With its transition system-like rule-based syntax, the
+  concept is as well very intuitive as well-suited for formal reasoning and
+  verification.
+
+        </p>
+
+        <p> Following the need for structuring capabilities in specification
+  frameworks, the paper proposes a concept for hierarchically structuring
+  Evolving Algebras corresponding to the semantics of the system to be modeled,
+  allowing to build up complex systems from simpler ones by several
+  combinators. The concept can be generalized to arbitrary rule-based state-
+  oriented formalisms. </p>
+
+        <p> In such systems, transitions regarded as atomic on the corresponding
+  level are allowed to be specified by computations performed by sub-Evolving-
+  Algebras instead of single rules. The subsystems provide a natural way of
+  encapsulating data and behaviour while a computation is running.
+  Communication is done via distinguished locations accessible to the
+  participating systems. </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="tapsof97.ps.gz">[PS-File]</a>
+
+          <br/>
+
+          <a shape="rect" href="taps97sl.ps.gz">[Slides]</a>
+
+        </p>
+
+        <p>
+
+  The paper is based on
+
+          <br/>
+
+        </p>
+
+        <ul>
+
+          <li>
+
+            <a shape="rect" href="ea180596.ps">[Slides]</a>
+
+  given at "Workshop on Evolving Algebras", May 17-19, 1996, Schloß
+  Eringerfeld, Germany
+
+          </li>
+
+          <li>
+
+            <a shape="rect" href="report-96-ea.ps">[Report]</a>
+
+          </li>
+
+        </ul>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 28 -->
+
+  <publication type="journal" bib-id="ludaescher-himmeroeder-lausen-may-   schlepphorst-is-98" local-id="IS98">
+
+    <shorttitle> IS 23(8) FLORID</shorttitle>
+
+    <journal short="IS 98">Information Systems, Special Issue on Semistructured
+  Data,</journal>
+
+    <number>23</number>
+
+    <volume>8</volume>
+
+    <page>589-612</page>
+
+    <date>December</date>
+
+    <year>1998</year>
+
+    <month>12</month>
+
+    <title>Managing Semistructured Data with FLORID: A Deductive Object-Oriented
+  Perspective</title>
+
+    <authors>
+
+      <author>Bertram Ludäscher</author>
+
+      <author>Rainer Himmeröder</author>
+
+      <author>Georg Lausen</author>
+
+      <author>Wolfgang May</author>
+
+      <author>Christian Schlepphorst</author>
+
+    </authors>
+
+    <project>Information Extraction</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+  The closely related research areas
+
+          <i>management of semistructured data</i>
+
+  and languages for
+
+          <i>querying the Web</i>
+
+  have recently attracted a lot of interest. We argue that languages supporting
+  deduction and object-orientation (
+
+          <i>dood</i>
+
+  languages) are particularly suited in this context:
+
+          <i>Object-orientation</i>
+
+  provides a flexible common data model for combining information from
+  heterogeneous sources and for handling partial information. Techniques for
+  navigating in object-oriented databases can be applied to semistructured
+  databases as well, since the latter may be viewed as (very simple) instances
+  of the former.
+
+          <i>Deductive rules</i>
+
+  provide a powerful framework for expressing complex queries in a high-level,
+  declarative programming style.
+
+          <br/>
+
+  We elaborate on the management of semistructured data and show how
+  reachability queries involving general path expressions and the extraction of
+  data paths in the presence of cyclic data can be handled. We then propose a
+  formal model for querying structure and contents of Web data and present its
+  declarative semantics. A main advantage of our approach is that it brings
+  together the above-mentioned issues in a unified, formal framework and -
+  using the
+
+          <a shape="rect" href="http://www.informatik.uni-   freiburg.de/~dbis/florid/"> FLORID</a>
+
+  system - supports rapid prototyping and experimenting with all these
+  features. Concrete examples illustrate the concise and elegant programming
+  style supported by FLORID and substantiate the above-mentioned claims.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+  </publication>
+
+  <!-- Publication 29 -->
+
+  <publication type="conference" bib-id="himmeroeder-kandazia-ludaescher-may-   lausen-DDLP-98" local-id="ddlp98">
+
+    <shorttitle>Search, Analysis, and Integration of Web Documents: A Case Study
+  with FLORID</shorttitle>
+
+    <conference short="DDLP 98">Intl. Workshop on Deductive Databases and Logic
+  Programming (DDLP'98)</conference>
+
+    <place>Manchester, UK</place>
+
+    <date>June 20</date>
+
+    <year>1998</year>
+
+    <month>6</month>
+
+    <day>20</day>
+
+    <proceedings>GMD Report 22/1998</proceedings>
+
+    <page>47-58</page>
+
+    <title>Search, Analysis, and Integration of Web Documents: A Case Study with
+  FLORID</title>
+
+    <authors>
+
+      <author>Rainer Himmeröder</author>
+
+      <author>Paul-Th. Kandzia</author>
+
+      <author>Bertram Ludäscher</author>
+
+      <author>Wolfgang May</author>
+
+      <author>Georg Lausen</author>
+
+    </authors>
+
+    <project>Information Extraction</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> Languages supporting deduction and object-orientation seem particularly
+  promising for querying and reasoning about structure and contents of the Web,
+  and for the integration of information from heterogeneous sources. FLORID, an
+  implementation of the deductive object-oriented language F-logic, has been
+  extended to provide a declarative semantics for querying the Web. This
+  extension allows extraction and restructuring of data from the Web and a
+  seamless integration with local data. Since the functionality of wrappers and
+  mediators is integrated into a single declarative language, the development
+  of advanced applications based on the Web as an information source is
+  significantly simplified. This claim is substantiated using a comprehensive
+  example. </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="ddlp98.ps.gz"> [PS-File]</a>
+
+          <br/>
+
+          <a shape="rect" href="ddlp-slides.ps"> [Slides]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 30 -->
+
+  <publication type="thesis" bib-id="may-diss-98">
+
+    <shorttitle>W.May: PhD Thesis</shorttitle>
+
+    <thesis>Dissertation/PhD Thesis</thesis>
+
+    <institute>Institut für Informatik</institute>
+
+    <university>Universität Freiburg</university>
+
+    <date>Mai</date>
+
+    <year>1998</year>
+
+    <month>5</month>
+
+    <title>Integrated Static and Dynamic Modeling of Processes</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>Dynamics</project>
+
+    <project>Formal Methods</project>
+
+    <project>Temporal Logics</project>
+
+    <linkto>http://user.informatik.uni-goettingen.de/~may/Diss/</linkto>
+
+  </publication>
+
+  <!-- Publication 31 -->
+
+  <publication type="conference" bib-id="ludaescher-may-EDBT-98" local-id="edbt98">
+
+    <shorttitle> EDBT: Referential Integrity</shorttitle>
+
+    <conference short="EDBT 98">6th. Intl. Conference on Extending Database
+  Technology (EDBT'98)</conference>
+
+    <place>Valencia, Spain</place>
+
+    <date>March 23-27</date>
+
+    <year>1998</year>
+
+    <month>3</month>
+
+    <day>23</day>
+
+    <proceedings>LNCS 1377, Springer</proceedings>
+
+    <page>404-418</page>
+
+    <title>Referential Actions: From Logical Semantics to Implementation</title>
+
+    <authors>
+
+      <author>Bertram Ludäscher</author>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>Referential Integrity</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+  Referential actions (rac's) are specialized triggers used to automatically
+  maintain referential integrity. While their local effects can be grasped
+  easily, it is far from obvious what the global semantics of a set RA of
+  interacting rac's should be. To capture the intended meaning of RA, we first
+  present an abstract non-constructive semantics. By formalizing RA as a logic
+  program P
+
+          <sub>RA</sub>
+
+  , a constructive semantics is obtained. The equivalence of the logic
+  programming semantics and the abstract semantics is proven using a game-
+  theoretic characterization, which provides additional insight into the
+  meaning of rac's. As shown in previous work, for general rac's it may be
+  infeasible to compute all
+
+          <em>maximal admissible</em>
+
+  solutions. Therefore, we focus on a tractable subset, i.e., rac's without
+  modifications. We show that in this case a unique maximal admissible solution
+  exists, and derive a PTIME algorithm for computing this solution. In case a
+  set U of user requests is not admissible, a maximal admissible subset of U is
+  suggested.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="edbt98.ps.gz">[edbt98.ps.gz]</a>
+
+        </p>
+
+        <p> This paper elaborates on the practical aspects of </p>
+
+        <ul>
+
+          <li>
+
+            <reference target="ludaescher-may-lausen-PODS-97"> Referential Actions as
+  Logic Rules</reference>
+
+  , Bertram Ludäscher, Wolfgang May, Georg Lausen, Proc. of 16th ACM Symposium
+  on Principles of Database Systems (PODS'97).
+
+          </li>
+
+        </ul>
+
+        <p> An extended version can be found in </p>
+
+        <ul>
+
+          <li>
+
+            <reference target="may-ludaescher-TODS-02">Understanding the Global Semantics
+  of Referential Actions using Logic Rules</reference>
+
+  , Wolfgang May, Bertram Ludäscher, ACM Transactions on Database Systems
+  (TODS), 27(4), 2002.
+
+          </li>
+
+        </ul>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 32 -->
+
+  <publication type="conference" bib-id="ludaescher-himmeroeder-may-ki-ws-   98" local-id="ki-ws98">
+
+    <shorttitle>KI 98: Querying Web Data with FLORID</shorttitle>
+
+    <conference short="ki-ws 98">Workshop Deklarative KI-Methoden zur
+  Implementierung und Nutzung von Systemen in Netzen, KI-98</conference>
+
+    <place>Bremen, Germany</place>
+
+    <date>September 16</date>
+
+    <year>1998</year>
+
+    <month>9</month>
+
+    <day>16</day>
+
+    <proceedings>GMD Report 29/1998</proceedings>
+
+    <page>65-79</page>
+
+    <title>Techniques and Rule Patterns for Declaratively Querying Web Data with
+  FLORID</title>
+
+    <authors>
+
+      <author>Bertram Ludäscher</author>
+
+      <author>Rainer Himmeröder</author>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>Information Extraction</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="http://www.informatik.uni-   freiburg.de/~dbis/florid/">FLORID </a>
+
+  is an implementation of the deductive object-oriented database language F-
+  logic and has recently been extended to provide a declarative semantics for
+  querying the Web. By means of several illustrative examples, we show how
+  \florid's rule-based logical language can be used to extract, query, and
+  analyze data from the Web.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="ki98-ws.ps.gz"> [PS-File]</a>
+
+          <br/>
+
+          <a shape="rect" href="ki98-ws-slides.ps.gz"> [Slides]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 33 -->
+
+  <publication type="bookchapter" bib-id="lausen-ludaescher-may-moc-98" local-id="moc98">
+
+    <shorttitle>On Logical Foundations of Active Databases</shorttitle>
+
+    <book short="moc 98">Transactions and Change in Logic Databases</book>
+
+    <editor>Hendrik Decker, Burkhard Freitag, Michael Kifer, and Andrei Voronkov,
+  editors</editor>
+
+    <publisher>Springer LNCS 1472</publisher>
+
+    <page>69-106</page>
+
+    <year>1998</year>
+
+    <title>On Active Deductive Databases: The Statelog Approach</title>
+
+    <authors>
+
+      <author>Georg Lausen</author>
+
+      <author>Bertram Ludäscher</author>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>On Active Deductive Databases: The Statelog Approach</project>
+
+    <project>Active Databases</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+  After briefly reviewing the basic notions and terminology of active rules and
+  relating them to production rules and deductive rules, respectively, we
+  survey a number of formal approaches to active rules. Subsequently, we
+  present our own state-oriented logical approach to active rules which
+  combines the declarative semantics of deductive rules with the possibility to
+  define updates in the style of production rules and active rules. The
+  resulting language
+
+          <b>
+
+            <i>Statelog</i>
+
+          </b>
+
+  is surprisingly simple, yet captures many features of active rules including
+  composite event detection and different coupling modes. Thus, it can be used
+  for the formal analysis of rule properties like termination and expressive
+  power. Finally, we show how nested transactions can be modeled in Statelog,
+  both from the operational and the model-theoretic perspective.
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="moc98.ps.gz">ps-file</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 34 -->
+
+  <publication type="bookchapter" bib-id="lausen-ludaescher-may-rolis-   98" local-id="rolis98">
+
+    <shorttitle> On Logical Foundations of Active Databases</shorttitle>
+
+    <book short="rolis 98">Logics for Databases and Information Systems</book>
+
+    <editor>Jan Chomicki and Gunter Saake, editors</editor>
+
+    <publisher>Kluwer Academic Publishers</publisher>
+
+    <isbn>ISBN 0-7923-8129-7</isbn>
+
+    <page>389-422</page>
+
+    <year>1998</year>
+
+    <title>On Logical Foundations of Active Databases</title>
+
+    <authors>
+
+      <author>Georg Lausen</author>
+
+      <author>Bertram Ludäscher</author>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>Active Databases</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+  In this chapter, we present work on logical foundations of active databases.
+  After introducing the basic notions and terminology, we give a short overview
+  of research on foundations of active rules. Subsequently, we present a
+  specific state-oriented logical approach to active rules which aims at
+  combining the declarative semantics of deductive rules with the possibility
+  to define updates in the style of production rules. The resulting language
+
+          <i>Statelog</i>
+
+  models (flat) transactions as a sequence of intermediate transitions, where
+  each transition is defined using deductive rules. Since Statelog programs
+  correspond to a specific class of locally stratified logic programs, they
+  have a unique intended model. Finally, after studying further fundamental
+  properties like expressive power and termination behavior, a Statelog
+  framework for active rules is presented. Although the framework is
+  surprisingly simple, it allows to model many essential features of active
+  rules, including immediate and deferred rule execution, and composite events.
+  Different alternatives for enforcing termination are proposed leading to
+  tractable subclasses of the language. Finally, we show that certain classes
+  of Statelog programs correspond to Datalog programs with production rule
+  semantics (i.e., with inflationary or noninflationary fixpoint semantics).
+
+        </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="http://wwwiti.cs.uni-   magdeburg.de/~saake/ldbis.html"> [Book]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 35 -->
+
+  <publication type="conference" bib-id="may-kandzia-WLP-98" local-id="wlp98">
+
+    <shorttitle>Abstract WLP'98</shorttitle>
+
+    <conference short="WLP'98">13. Workshop logische Programmierung
+  (WLP'98)</conference>
+
+    <place>Vienna, Austria</place>
+
+    <date>October, 6-8</date>
+
+    <year>1998</year>
+
+    <month>10</month>
+
+    <day>06</day>
+
+    <proceedings>Technical Report 1843-1998-10, Institut für Informationssysteme,
+  TU Wien</proceedings>
+
+    <title>Nonmonotonic Inheritance in Object-Oriented Deductive Database
+  Languages</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+      <author>Paul-Thomas Kandzia</author>
+
+    </authors>
+
+    <project>Inheritance</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> Deductive object-oriented frameworks integrate logic rules and
+  inheritance. There, specific problems arise: Due to the combination of
+  deduction and inheritance, (a) deduction can take place depending on
+  inherited facts, thus raising indirect conflicts, and (b) also the class
+  hierarchy and -membership is subject to deduction. </p>
+
+        <p> From this point of view, we investigate the application of the extension
+  semantics of Default Logic to deductive object-oriented database
+  languages. </p>
+
+        <p> By restricting the problem to Horn programs and a special type of
+  defaults tailored to the semantics of inheritance, a forward-chaining
+  construction of a Herbrand-style representation of extensions is
+  possible. </p>
+
+        <p> This construction is compared with a solution as implemented in the F-
+  Logic system Florid which is based on a combination of classical deductive
+  fixpoints and an inheritance-trigger mechanism. </p>
+
+        <p> From the F-Logic point of view, the main contribution of the report is to
+  provide a connection between inheritance-canonic models as defined in [Kifer-
+  Lausen-Wu-JACM-95] and classical AI frameworks. </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="WLP98.ps"> [ps-File]</a>
+
+          <br/>
+
+          <a shape="rect" href="WLP98sl.ps"> [Slides]</a>
+
+        </p>
+
+        <p>
+
+  The full paper,
+
+          <reference target="may-kandzia-TR-Inheritance-99"> Technical Report
+  114 </reference>
+
+  , Institut für Informatik, Universität Freiburg, Jan. 1999.
+
+        </p>
+
+        <p> </p>
+
+        <p>
+
+  A
+
+          <reference target="kandzia-may-JLC-Inheritance-01">revised
+  version</reference>
+
+  is published in
+
+          <b>
+
+            <i>Journal of Logic and Computation</i>
+
+          </b>
+
+  , 11(4), 2001.
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 36 -->
+
+  <publication type="techreport" bib-id="may-kandzia-TR-Inheritance-99" local-id="TR-Inheritance">
+
+    <shorttitle>TR 131: Inheritance</shorttitle>
+
+    <techreport short="TR-Inheritance 99">Technical Report 114</techreport>
+
+    <place>Freiburg, Germany</place>
+
+    <university>Universität Freiburg</university>
+
+    <institute>Institut für Informatik</institute>
+
+    <number>114</number>
+
+    <date>January</date>
+
+    <year>1999</year>
+
+    <month>1</month>
+
+    <title>Nonmonotonic Inheritance in Object-Oriented Deductive Database
+  Languages</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+      <author>Paul-Thomas Kandzia</author>
+
+    </authors>
+
+    <project>Inheritance</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> Deductive object-oriented frameworks integrate logic rules and
+  inheritance. There, specific problems arise: Due to the combination of
+  deduction and inheritance, (a) deduction can take place depending on
+  inherited facts, thus raising indirect conflicts, and (b) also the class
+  hierarchy and -membership is subject to deduction. </p>
+
+        <p> From this point of view, we investigate the application of the extension
+  semantics of Default Logic to deductive object-oriented database
+  languages. </p>
+
+        <p> By restricting the problem to Horn programs and a special type of
+  defaults tailored to the semantics of inheritance, a forward-chaining
+  construction of a Herbrand-style representation of extensions is
+  possible. </p>
+
+        <p> This construction is compared with a solution as implemented in the F-
+  Logic system FLORID which is based on a combination of classical deductive
+  fixpoints and an inheritance-trigger mechanism. </p>
+
+        <p> From the F-Logic point of view, the main contribution of the report is to
+  investigate the relationship between inheritance-canonic models as defined in
+  [Kifer-Lausen-Wu-JACM-95] and classical AI frameworks: we show that the
+  semantics which is defined and implemented for F-Logic coincides with the
+  standard semantics of Default Logic and Inheritance Networks. In this report,
+  we restrict ourselves to scalar methods. </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="TR114-Inheritance.ps">[ps-File]</a>
+
+        </p>
+
+        <p>
+
+  A
+
+          <reference target="may-kandzia-WLP-98">preliminary version</reference>
+
+  has been presented at
+
+          <b>
+
+            <i> 13. Workshop logische Programmierung - WLP'98 </i>
+
+          </b>
+
+  , Vienna, Oct. 6-8, 1998.
+
+        </p>
+
+        <p>
+
+  A
+
+          <reference target="kandzia-may-JLC-Inheritance-00">revised
+  version</reference>
+
+  is published in
+
+          <b>
+
+            <i> Journal of Logic and Computation</i>
+
+          </b>
+
+  , 11(4), 2001.
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 37 -->
+
+  <publication type="techreport" bib-id="may-TR-Mondial-99" local-id="TR-   Mondial">
+
+    <shorttitle>TR 131: The Mondial Case Study</shorttitle>
+
+    <techreport short="TR-Mondial 99">Technical Report 131</techreport>
+
+    <place>Freiburg, Germany</place>
+
+    <university> Universität Freiburg</university>
+
+    <institute>Institut für Informatik</institute>
+
+    <number>131</number>
+
+    <date>December</date>
+
+    <year>1999</year>
+
+    <month>12</month>
+
+    <title>Information Extraction and Integration with FLORID: The MONDIAL Case
+  Study</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+  For accessing and processing this information provided on the Web, there is a
+  need for integration of data from different, heterogeneous sources. Languages
+  for this purpose have to serve for querying the web, extracting information
+  from semistructured data, and restructuring the results. In [LHL+98] we argue
+  that languages supporting deduction and object-orientation are particularly
+  suited in this context; we proposed a formal model for querying structure and
+  contents of Web data. A main advantage of our approach is that it brings
+  together the above-mentioned issues in a unified, formal framework. The
+  approach is implemented in the
+
+          <a shape="rect" href="http://www.informatik.uni-   freiburg.de/~dbis/florid/"> FLORID</a>
+
+  system [HLL98] which is an implementation of the deductive object-oriented
+  database language F-Logic [KLW95].
+
+        </p>
+
+        <p> This report substantiates the above claims by a case-study using FLORID:
+  We show how several information sources on the Web containing political and
+  geographical data are integrated to a geographical database using FLORID. The
+  case study illustrates the trade-off gained from an integrated Web-querying
+  and data manipulation language, supporting a concise and elegant programming
+  style. Using a deductive language, a process of rapid prototyping and
+  refinement of the program -- implementing both a wrapper and a mediator --
+  can be easily followed: the program consists of a skeleton of generic
+  wrapping rules [MHL+99], augmented by refining rules and application-specific
+  rules. </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="TR131-Mondial.ps">[ps-File]</a>
+
+        </p>
+
+        <ul>
+
+          <li>
+
+  The report
+
+            <reference target="may-lausen-tr136-infoextr">Information Extraction from the
+  Web</reference>
+
+  describes the underlying Framework.
+
+          </li>
+
+          <li>
+
+  The homepage of the
+
+            <a shape="rect" href="../../Mondial/">Mondial</a>
+
+  database contains the F-Logic programs and the database in F-Logic, Oracle,
+  and XML formats.
+
+          </li>
+
+        </ul>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 38 -->
+
+  <publication type="conference" bib-id="may-dagstuhl-99" local-id="dagstuhl99talk">
+
+    <shorttitle>Dagstuhl-Seminar: Web</shorttitle>
+
+    <conference short="dagstuhl99talk 99">
+
+      <a shape="rect" href="http://www.dagstuhl.de/"> Dagstuhl-Seminar</a>
+
+  "Declarative Data Access on the Web"
+
+    </conference>
+
+    <place>Schloss Dagstuhl, Germany</place>
+
+    <date>September 12-17</date>
+
+    <year>1999</year>
+
+    <month>9</month>
+
+    <day>12</day>
+
+    <proceedings>Dagstuhl-Report No. 251</proceedings>
+
+    <title>Information Extraction from the Web with FLORID</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>Information Extraction from the Web with FLORID</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> The talk presents an integrated architecture where Web exploration,
+  wrapping, mediation, and querying is done in a monolithic system. The system
+  is based on a unified framework -- i.e., data model and language -- in which
+  all tasks are done. We regard the Web and its contents as a unit, represented
+  in an object-oriented data model: the Web structure, given by its hyperlinks,
+  the parse-trees of Web pages, and its contents all becomes part of the
+  internal world model of the system. The advantage of this unified view is
+  that the same data manipulation and querying language can be used for the Web
+  structure and the application-semantic model: The model is complemented by a
+  rule-based object-oriented language which is extended by Web access
+  capabilities and structured document analysis and allows for accessing the
+  Web, wrapping, mediating, and querying information. Due to this integration,
+  a system in this architecture can be equipped with Web navigation and
+  exploration functionality. We present generic rule patterns for typical
+  extraction, integration, and restructuring tasks using this framework. We
+  show the practicability of our approach by using the FLORID system. The
+  approach is illustrated by two case-studies. </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="dagst99.ps">[Slides]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 39 -->
+
+  <publication type="conference" bib-id="may-idm-99" local-id="idm99">
+
+    <shorttitle>Abstract IDM99</shorttitle>
+
+    <conference short="idm 99">International Workshop on Internet Data Management
+  (IDM'99)</conference>
+
+    <place>Firenze, Italy</place>
+
+    <date>September 2</date>
+
+    <year>1999</year>
+
+    <month>9</month>
+
+    <day>2</day>
+
+    <proceedings>Proc. DEXA 99 Workshop, IEEE Computer Society
+  Press</proceedings>
+
+    <page>721-725</page>
+
+    <title>Modeling and Querying Structure and Contents of the Web</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>Information Extraction</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> For accessing and processing the information provided on the Web, there
+  is a need for extraction, restructuring, and integration of semistructured
+  data from autonomous, heterogeneous sources. In this paper, we regard the Web
+  and its contents as a unit, represented in an object-oriented data model: the
+  Web structure (inter-document level), given by its hyperlinks, the parse-
+  trees of Web pages (intra-document level), and their contents. The model is
+  complemented by a rule-based object-oriented language which is extended by
+  Web access capabilities and allows for and navigation in the unified model.
+  We show the practicability of our approach by using the FLORID system. </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="http://computer.org/conferen/proceed/dexa/0281/02810721   abs.htm"> [The Paper (IEEE Digital Library)]</a>
+
+          <br/>
+
+          <a shape="rect" href="idm99sl.ps"> [Slides]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 40 -->
+
+  <publication type="talk" bib-id="may-suny-99" local-id="sunytalk99">
+
+    <shorttitle>Information Extraction from the Web with FLORID </shorttitle>
+
+    <talk>Guest talk</talk>
+
+    <place>Stony Brook, NY</place>
+
+    <date>June 14</date>
+
+    <year>1999</year>
+
+    <month>6</month>
+
+    <day>14</day>
+
+    <title>Information Extraction from the Web with FLORID</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>Information Extraction</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> FLORID is an implementation of F-Logic by the database group at the
+  University of Freiburg (Germany). In the talk, the Web extension of FLORID is
+  presented. It allows for wrapping, restructuring and integrating data from
+  the Web, in a unified framework by using F-Logic rules as unique language for
+  programming and querying. The object-oriented Web Model is based on the
+  classes url and webdoc for representing the skeleton of a relevant Web
+  fragment. The intra-document structure is represented by parse-trees which
+  are integrated into the Web skeleton. In the information retrieval task,
+  objects in the extended Web skeleton are identified and restructured into an
+  object-oriented model of the application domain. The wrapping task is done by
+  analyzing the F-Logic representation of the parse-tree and matching with perl
+  regular expressions. The approach is illustrated by a case study which
+  integrates geographical data from different sources. </p>
+
+        <p> Structure of the talk: </p>
+
+        <ul>
+
+          <li> The Web Model: What we can do with FLORID for Web Data Extraction </li>
+
+          <li> Implementation: How is this implemented in FLORID</li>
+
+          <li> Practice: How is it used?</li>
+
+          <li> Demonstration: The Mondial Case Study</li>
+
+          <li> Lessons we have learnt and further ideas.</li>
+
+        </ul>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="suny.ps"> [Slides]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!--Publication 41  -->
+
+  <publication type="conference" bib-id="" local-id="tab99">
+
+    <shorttitle>Abstract TABLEAUX'97</shorttitle>
+
+    <conference short="tab 99">International Conference on Analytic Tableaux and
+  Related Methods (TABLEAUX'99)</conference>
+
+    <place>Albany, NY</place>
+
+    <date>June 7-11</date>
+
+    <year>1999</year>
+
+    <month>6</month>
+
+    <day>7</day>
+
+    <proceedings>LNCS 1617, Springer</proceedings>
+
+    <page>232-246</page>
+
+    <title>A Tableau Calculus for a Temporal Logic with Temporal
+  Connectives </title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>Dynamics</project>
+
+    <project>Formal Methods</project>
+
+    <project>Temporal Logics</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> The paper presents a tableau calculus for a linear time temporal logic
+  for reasoning about processes and events in concurrent systems. The logic is
+  based on temporal connectives in the style of Transaction Logic and explicit
+  quantification over states. The language extends first-order logic with
+  sequential and parallel conjunction, parallel disjunction, and temporal
+  implication. Explicit quantification over states via state variables allows
+  to express temporal properties which cannot be formulated in modal logics.
+  Using the tableau representation of temporal Kripke structures presented for
+  CTL which represents states by prefix terms, explicit quantification over
+  states is integrated into the tableau calculus by an adaptation of the delta-
+  rule from first-order tableau calculi to the linear ordering of the universe
+  of states. Complementing the CTL calculus, the paper shows that this tableau
+  representation is both suitable for modal temporal logics and for logics
+  using temporal connectives. </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="tab99ECL.ps"> [postscript]</a>
+
+          <br/>
+
+          <a shape="rect" href="tab99sl.ps"> [Slides]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 42 -->
+
+  <publication type="talk" bib-id="may-tuw-99" local-id="tuwtalk99">
+
+    <shorttitle>Information Extraction from the Web</shorttitle>
+
+    <talk>Guest talk</talk>
+
+    <place>Database and Artificial Intelligence Group at TU Vienna,
+  Austria</place>
+
+    <date>November 5</date>
+
+    <year>1999</year>
+
+    <month>11</month>
+
+    <day>5</day>
+
+    <title>Information Extraction from the Web with FLORID</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+    </authors>
+
+    <project>Information Extraction</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> FLORID is an implementation of F-Logic by the database group at the
+  University of Freiburg (Germany). In the talk, the Web extension of FLORID is
+  presented. It allows for wrapping, restructuring and integrating data from
+  the Web, in a unified framework by using F-Logic rules as unique language for
+  programming and querying. The object-oriented Web Model is based on the
+  classes url and webdoc for representing the skeleton of a relevant Web
+  fragment. The intra-document structure is represented by parse-trees which
+  are integrated into the Web skeleton. In the information retrieval task,
+  objects in the extended Web skeleton are identified and restructured into an
+  object-oriented model of the application domain. The wrapping task is done by
+  analyzing the F-Logic representation of the parse-tree and by matching with
+  perl regular expressions. The approach is illustrated by two case
+  studies. </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="tuw99.ps"> [Slides]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+  <!-- Publication 43 -->
+
+  <publication type="conference" bib-id="may-ludaescher-lausen-himmeroeder-   wwwcm-99" local-id="wwwcm99">
+
+    <shorttitle>Abstract WWWCM99</shorttitle>
+
+    <conference short="wwwcm 99">International Workshop on the World-Wide Web and
+  Conceptual Modeling (WWWCM'99)</conference>
+
+    <place>Paris, France</place>
+
+    <date>November 15-18</date>
+
+    <year>1999</year>
+
+    <month>11</month>
+
+    <day>15</day>
+
+    <proceedings>LNCS 1727, Springer</proceedings>
+
+    <page>307-320</page>
+
+    <title>A Unified Framework for Wrapping, Mediating and Restructuring
+  Information from the Web</title>
+
+    <authors>
+
+      <author>Wolfgang May</author>
+
+      <author>Bertram Ludäscher</author>
+
+      <author>Georg Lausen</author>
+
+      <author>Rainer Himmeröder</author>
+
+    </authors>
+
+    <project>World-Wide Web and Conceptual Modeling</project>
+
+    <abstract>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p> The goal of information extraction from the Web is to provide an
+  integrated view on heterogeneous information sources via a common data model
+  and query language. A main problem with current approaches is that they rely
+  on very different formalisms and tools for wrappers and mediators, thus
+  leading to an "impedance mismatch" between the wrapper and mediator level. In
+  contrast, our approach integrates wrapping and mediation in a unified
+  framework based on an object-oriented data model which represents both the
+  Web structure and the data of the application domain. Wrappers and mediators
+  are written in a rule-based object-oriented language which is augmented with
+  features for Web access and structured document analysis, i.e., pattern
+  matching by regular expressions and SGML parsing. In this paper, we develop
+  generic, reusable rule patterns for typical extraction, integration, and
+  restructuring tasks using this framework. We show the practicability of our
+  approach by using the FLORID system. </p>
+
+      </htmlfrag>
+
+    </abstract>
+
+    <comment>
+
+      <htmlfrag xmlns:ht="http://www.w3.org/1999/xhtml">
+
+        <p>
+
+          <a shape="rect" href="wwwcm99.ps"> [postscript]</a>
+
+          <br/>
+
+          <a shape="rect" href="wwwcm99sl.ps"> [Slides]</a>
+
+        </p>
+
+      </htmlfrag>
+
+    </comment>
+
+  </publication>
+
+</publications>
