@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="project-report.xsl" ?>
+
+<evaluation>
+  <employee id="E201">
+    <firstname>Maria</firstname>
+    <lastname>Santos</lastname>
+    <department>IT</department>
+    <project-score>94</project-score>
+    <attendance>97</attendance>
+  </employee>
+  
+  <employee id="E202">
+    <firstname>John</firstname>
+    <lastname>Cruz</lastname>
+    <department>HR</department>
+    <project-score>81</project-score>
+    <attendance>88</attendance>
+  </employee>
+  
+  <employee id="E203">
+    <firstname></firstname>
+    <lastname>Reyes</lastname>
+    <department>Finance</department>
+    <project-score>85</project-score>
+    <attendance>91</attendance>
+  </employee>
+
+  <employee id="E204">
+    <firstname>Angela</firstname>
+    <lastname>Lim</lastname>
+    <department>IT</department>
+    <project-score>67</project-score>
+    <attendance>72</attendance>
+  </employee>
+
+  <employee id="E205">
+    <firstname>Carlo</firstname>
+    <lastname>Mendoza</lastname>
+    <department>Marketing</department>
+    <project-score>58</project-score>
+    <attendance>83</attendance>
+  </employee>
+
+  <employee id="E206">
+    <firstname>Sophia</firstname>
+    <lastname>Tan</lastname>
+    <department>HR</department>
+    <project-score>89</project-score>
+    <attendance>94</attendance>
+  </employee>
+
+  <employee id="E207">
+    <firstname>Daniel</firstname>
+    <lastname>Navarro</lastname>
+    <department>Finance</department>
+    <project-score>74</project-score>
+    <attendance>69</attendance>
+  </employee>
+
+  <employee id="E208">
+    <firstname>Lara</firstname>
+    <lastname>Aquino</lastname>
+    <department>Marketing</department>
+    <project-score>96</project-score>
+    <attendance>99</attendance>
+  </employee>
+
+  <employee id="E209">
+    <firstname>Miguel</firstname>
+    <lastname>Torres</lastname>
+    <department>IT</department>
+    <project-score>55</project-score>
+    <attendance>70</attendance>
+  </employee>
+
+  <employee id="E210">
+    <firstname>Bianca</firstname>
+    <lastname>Ramos</lastname>
+    <department>HR</department>
+    <project-score>62</project-score>
+    <attendance>76</attendance>
+  </employee>
+</evaluation>
